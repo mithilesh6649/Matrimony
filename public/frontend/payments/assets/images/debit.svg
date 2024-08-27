@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Group_15096" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#c1721f}
+        </style>
+    </defs>
+    <path id="Rectangle_4544" fill="none" d="M0 0H24V24H0z"/>
+    <g id="credit-card" transform="translate(0 4)">
+        <path id="Path_15509" d="M0 213.23v6.211a3.239 3.239 0 0 0 3.239 3.239h17.522A3.239 3.239 0 0 0 24 219.441v-6.211a.563.563 0 0 0-.563-.563H.563a.563.563 0 0 0-.563.563zm5.992 3.943H4.49a.986.986 0 1 1 0-1.971h1.5a.986.986 0 1 1 0 1.971z" class="cls-2" transform="translate(0 -206.691)"/>
+        <path id="Path_15510" d="M24 88.776v-.2a3.239 3.239 0 0 0-3.239-3.239H3.239A3.239 3.239 0 0 0 0 88.573v.2a.563.563 0 0 0 .563.563h22.874a.563.563 0 0 0 .563-.56z" class="cls-2" transform="translate(0 -85.334)"/>
+    </g>
+</svg>

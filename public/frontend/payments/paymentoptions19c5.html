@@ -1,0 +1,1800 @@
+<html lang="en">
+
+
+<!-- Mirrored from www.elitematrimony.com/payments/paymentoptions.php?categoryType=283 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Aug 2024 17:58:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Elite Payment">
+    <meta name="author" content="matrimony">
+    <meta name="generator" content="">
+    <title>Elite Payment</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/float-label.css" rel="stylesheet">
+    <link href="assets/css/style63c9.css?v=24082022" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="assets/css/elite-revamp.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- <link href="assets/css/swiper-bundle.min.css" rel="stylesheet"> --> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <meta name="msapplication-config" content="">
+    <meta name="theme-color" content="">
+    <style>
+        .displayerror {
+            color: red;
+            font-size: 14px;
+            margin-top: 18px;
+        }
+
+        .ml-14 {
+            margin-left: 14px;
+        }
+
+        .checkbox {
+            display: inline-flex;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .checkbox>input {
+            height: 20px;
+            width: 20px !important;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+            border: 1px solid #c1721f;
+            border-radius: 4px;
+            outline: none;
+            transition-duration: 0.3s;
+            background-color: #c1721f;
+            cursor: pointer;
+        }
+
+        .checkbox>input:checked {
+            border: 1px solid #c1721f;
+            background-color: #c1721f;
+        }
+
+        .checkbox>input:checked+span::before {
+            content: '\2713';
+            display: block;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            left: 0.3rem;
+        }
+
+        .checkbox>input:active {
+            border: 2px solid #c1721f;
+        }
+
+        #list-neft-bank-list{
+            border-bottom-right-radius:8px; 
+            border-bottom-left-radius:8px;
+        }
+        /* ,#mobPaymentOptionSliderUPI  */
+		
+		label {opacity: 0;}
+		.floating-select:focus ~ label, .floating-select:not([value=""]):valid ~ label {opacity: 1;}
+		.floating-input:focus ~ label, .floating-input:not(:placeholder-shown) ~ label {opacity: 1;}
+
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <img src="assets/images/topright.png" class="topright">
+    </div>
+    <main role="main">
+        <div class="container">
+            <div class="row">
+                <div> <a href="../index.html"><img src="assets/images/elite_logo.svg" class="responive elite-logo"></a></div>
+            </div>
+        </div>
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="  cont_sty">
+                <div class="row">
+                    <div class="col-md-8 padding-right">
+                        <div id="elitematriidenter" class="">
+                            <!-- d-none d-lg-block -->
+                            <h4 class="m-l-7" id="subscribeHeadingID">Subscribe to Elite Matrimony </h4><br>
+                            <!-- SUBSCRIBE1 FORM DIV STARTS -->
+                            <form class="form-inline em-border" id="SUBSCRIBE1DIV">
+                                <h6 class="elit-mt f-14"> Enter your Elite Matrimony ID (EM ID) below</h6>
+                                <div class="row pd-left-9">
+                                    <div class="floating-label  form-group mx-sm-3 mb-2">
+                                        <input type="text" autocomplete="off" class="form-control emid-txt mobile-width floating-input" placeholder="EM ID" id="sub1_em_id">
+                                        <span class="highlight"></span>
+                                        <label for="cardnumber" class="control-label" id="emID-lableid">EM ID</label>
+                                    </div>
+                                    <button type="button" id="SUBSCRIBE1SUBMITID" class="btn btn-danger mb-2 em-submit-btn">Submit</button>
+                                </div>
+                                <!-- <p class="displayerror" id="SUB1Err"></p> -->
+                                <p class="prg-fnt"><strong>New User? </strong>Reach us @ <a href="tel:+91 709 206 6066" class="call-color"> +91 709 206 6066 </a> to generate EM ID or
+                                    <a href="javascript:;" class="new-user" onclick="triggergamooga(1);">Click here</a> to chat with our Relationship Manager</p>
+                            </form>
+                            <!-- SUBSCRIBE1 FORM DIV END -->
+
+                            <!-- SUBSCRIBE2 FORM DIV STARTS -->
+                            <form class="form-inline em-border p-1em-dc" name="sub2Form" id="SUBSCRIBE2DIV" style="display:none;">
+                                <div class="row">
+                                    <div class="floating-label  form-group col-md-4 mb-2 mb-2-d-c">
+                                        <input type="text" autocomplete="off" class="form-control emid-txt mobile-width floating-input" placeholder="EM ID" id="sub2_em_id">
+                                        <span class="highlight"></span>
+                                        <label for="cardnumber" class="control-label" id="emID2-lableid">EM ID</label>
+                                    </div>
+                                    <div class="floating-label  form-group col-md-4 mb-2 mb-2-d-c">
+                                        <input type="text" autocomplete="off" class="form-control emid-txt mobile-width floating-input" placeholder="Name" id="sub2_name">
+                                        <span class="highlight"></span>
+                                        <label for="cardnumber" id="name-Labelid" class="control-label" id="emID-lableid">Name</label>
+                                    </div>
+                                    <div class="floating-label form-group col-md-4 mb-2 mb-2-d-c discountPromoCodeDivClass">
+                                        <!-- style="width:183px;" -->
+                                        <div id="discountPromoCodeDivID" style="display:none;">
+                                            <!-- <label class="discount-emid">Promo code</label> -->
+                                            <input type="text" autocomplete="off" class="form-control form-control-common emid-txt floating-input mobile-width" id="sub2_promocode">
+                                            <div class="input-group-append">
+                                                <span class="tick-img">
+                                                    <img src="assets/images/tick.svg"></span>
+                                            </div>
+                                            <span class="highlight"></span>
+                                        <label for="cardnumber" id=" " class="control-label" >Promo code</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="padding-bottom: 18px;margin-left: -19PX;">
+                                    <label class="checkbox pointer-events">
+                                        <input type="checkbox" class="form-control" id="sub2_tc" name="sub2_tc" checked>
+                                        <span> <button type="button" class="tc-modal" data-toggle="modal" data-target="#exampleModalCenter">
+                                                I agree to the Terms and Conditions
+                                            </button>
+                                        </span>
+                                    </label>
+                                </div>
+                                <p class="displayerror" id="SUB2Err"></p>
+                                <div class="m-t-32 display-none">
+                                    <button type="button" class="btn btn-danger mb-2 em-submit-btn" id="proceedBtnID">Proceed</button>
+                                </div>
+                            </form>
+                            <!-- SUBSCRIBE2 FORM DIV END -->
+                        </div>
+                        <div class="">
+                            <h4 class="padding-btm-top hideMobileInitialLoadingClass" style="display:none;">Select Your Payment Method </h4>
+
+                            <div class="row">
+                                <!--desktop view tab-->
+                                <div class="col-md-4 hidden-mobile">
+                                    <div class="list-group em-pay-list" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action btn-grad active credit-card-menu neft-click-on" id="list-credit-card-list" data-toggle="list" href="#list-credit-card" role="tab" aria-controls="credit-debit">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <div class="payment-menu-icon"></div>
+                                                </div>
+                                                <div class="col-9">
+                                                    Credit/<br> Debit Card &nbsp; <img src="assets/images/right-arrow-cart.svg" class="float-right-bank">
+                                                </div>
+                                            </div>
+                                        </a>
+                                                                                    <a class="list-group-item list-group-item-action btn-grad net-bank-menu neft-click-on" id="list-net-bank-list" data-toggle="list" href="#list-net-banking" role="tab" aria-controls="net-bank">
+                                                <div class="row">
+                                                    <div class="col-2">
+                                                        <div class="payment-menu-icon-netbank"></div>
+                                                    </div>
+                                                    <div class="col-9">
+                                                        Net Banking <img src="assets/images/right-arrow-cart.svg" class="float-right">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item list-group-item-action btn-grad neft-bank-menu" id="list-neft-bank-list" data-toggle="list" href="#list-neft-rtgs" role="tab" aria-controls="neft-rtgs">
+                                                <div class="row">
+                                                    <div class="col-2">
+                                                        <div class="payment-menu-icon-neft"></div>
+                                                    </div>
+                                                    <div class="col-9 m-t5px">
+                                                        NEFT/RTGS<img src="assets/images/right-arrow-cart.svg" class="float-right">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item list-group-item-action btn-grad upi-bank-menu neft-click-on" id="list-upi-pay-list" data-toggle="list" href="#list-upi-pay" role="tab" aria-controls="upi">
+                                                <div class="row">
+                                                    <div class="col-2">
+                                                        <div class="payment-menu-icon-upi"></div>
+                                                    </div>
+                                                    <div class="col-9">
+                                                        UPI Payment<img src="assets/images/right-arrow-cart.svg" class="float-right">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                                                            </div>
+                                </div>
+                                <!-- mobile view tab-->
+                                <div class="col-md-4" id="mobPaymentOptionSliderID" style="display:none;">
+                                    <div class="swiper-container lg-ml0">
+                                        <div class="swiper-wrapper md-check-margin">
+                                            <div class="col-md-4 col-12 swiper-slide radiobox-width btn-grad credit-card-menu payment-mob-div active" ref-tab="list-credit-card" id="mobPaymentOptionSliderCRID" aria-controls="credit-debit">
+                                                <div class="row h-100 align-middle">
+                                                    <div class="col-3 payment-menu-img">
+                                                        <div class="payment-menu-icon"></div>
+                                                    </div>
+                                                    <div class="col-9 payment-menu-txt">
+                                                        <span class="pay-mob-span"> Credit/ <br>Debit Card </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                            <div class="col-md-4 col-12 swiper-slide radiobox-width btn-grad net-bank-menu net-card-menu payment-mob-div" ref-tab="list-net-banking" id="mobPaymentOptionSliderNETBANK" aria-controls="net-bank">
+                                                    <div class="row h-100 align-middle">
+                                                        <div class="col-3 payment-menu-img">
+                                                            <div class="payment-menu-icon"></div>
+                                                        </div>
+                                                        <div class="col-9 payment-menu-txt">
+                                                            <span class="pay-mob-span"> Net <br>Banking</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-12 swiper-slide radiobox-width btn-grad neft-bank-menu neft-card-menu payment-mob-div" ref-tab="list-neft-rtgs" id="mobPaymentOptionSliderNEFTRTGS" aria-controls="neft-rtgs">
+                                                    <div class="row h-100 align-middle">
+                                                        <div class="col-3 payment-menu-img">
+                                                            <div class="payment-menu-icon"></div>
+                                                        </div>
+                                                        <div class="col-9 payment-menu-txt m-t-8">
+                                                            <span class="pay-mob-span"> NEFT/RTGS </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-12 swiper-slide radiobox-width btn-grad upi-bank-menu upi-card-menu payment-mob-div" ref-tab="list-upi-pay" id="mobPaymentOptionSliderUPI" aria-controls="upi">
+                                                    <div class="row h-100 align-middle">
+                                                        <div class="col-3 payment-menu-img">
+                                                            <div class="payment-menu-icon"></div>
+                                                        </div>
+                                                        <div class="col-9 payment-menu-txt">
+                                                            <span class="pay-mob-span"> UPI <br>Payment</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 hideMobileInitialLoadingClass" style="display:none;">
+                                    <div class="tab-content card-payment-tab" id="nav-tabContent">
+                                        <!--credit/debit card details-->
+                                        <div class="tab-pane fade show active" id="list-credit-card" role="tabpanel" aria-labelledby="list-credit-card-list">
+                                            <form class="p-1em" name="CreditDebitForm">
+                                                <h6 class="payment-op"> Pay using Credit/Debit Card </h6>
+                                                <div class="floating-label">
+                                                    <input type="text" autocomplete="off" NAME="cardNumber" maxlength="19" size="19" inputmode="numeric" placeholder="Card Number" id="cardNumberID" class="floating-input" onkeypress="return isNumber(event);" onblur="checkCvv(this.value);" ondrop="return false;" onkeyup="SetTypeText(this.value);" onpaste="return false;">
+                                                    <span class="highlight"></span>
+                                                    <label for="cardnumber" class="control-label" id="card-number-lableid">Card Number</label>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="floating-label">
+                                                            <select class="floating-select moz-floating-fix" NAME="cardExpiryMonth" size="1" id="cardExpiryMonthID" value="" tabindex="0" onchange="this.setAttribute('value', this.value);">
+                                                                <option value=" " selected class="control-label">Expiry Month</option>
+                                                                                                                                    <option value="01"><br>01 (Jan)</option>
+                                                                                                                                    <option value="02"><br>02 (Feb)</option>
+                                                                                                                                    <option value="03"><br>03 (Mar)</option>
+                                                                                                                                    <option value="04"><br>04 (Apr)</option>
+                                                                                                                                    <option value="05"><br>05 (May)</option>
+                                                                                                                                    <option value="06"><br>06 (Jun)</option>
+                                                                                                                                    <option value="07"><br>07 (Jul)</option>
+                                                                                                                                    <option value="08"><br>08 (Aug)</option>
+                                                                                                                                    <option value="09"><br>09 (Sep)</option>
+                                                                                                                                    <option value="10"><br>10 (Oct)</option>
+                                                                                                                                    <option value="11"><br>11 (Nov)</option>
+                                                                                                                                    <option value="12"><br>12 (Dec)</option>
+                                                                                                                            </select>
+                                                            <span class="highlight"></span>
+                                                            <label id="month-Label-Id">Expiry Month</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="floating-label">
+                                                            <select class="floating-select moz-floating-fix" NAME="cardExpiryYear" id="cardExpiryYearID" value="" onchange="this.setAttribute('value', this.value);">
+                                                                <option value=" " selected class="control-label">Expiry Year</option>
+                                                                <option value=24>2024</option><option value=25>2025</option><option value=26>2026</option><option value=27>2027</option><option value=28>2028</option><option value=29>2029</option><option value=30>2030</option><option value=31>2031</option><option value=32>2032</option><option value=33>2033</option><option value=34>2034</option><option value=35>2035</option><option value=36>2036</option><option value=37>2037</option><option value=38>2038</option><option value=39>2039</option><option value=40>2040</option><option value=41>2041</option><option value=42>2042</option><option value=43>2043</option><option value=44>2044</option>                                                            </select>
+                                                            <span class="highlight"></span>
+                                                            <label id="year-label-id">Expiry Year</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="floating-label input-group">
+                                                    <input type="password" size="5" inputmode="numeric" id="CvvID" placeholder="CVV" class="floating-input form-control card-payment-cvv-input mb-bg" onkeypress="return isNumber(event);" ondrop="return false;" onpaste="return false;" style="border-right-style: none !important;">
+                                                    <input type="hidden" name="hidden_cardType" value="" id="hidden_cardType">
+													<input type="hidden" name="hidden_cardCvvLength" value="" id="hidden_cardCvvLength">
+                                                    <div class="input-group-append">
+                                                        <div id="cvv-span-id" class="input-group-text card-payment-cvv-txt">
+                                                            <span> Usually found on the back of your card &nbsp;</span><img src="assets/images/cvv-img.svg"></div>
+                                                    </div>
+                                                    <span class="highlight"></span>
+                                                    <label id="cvv-label-id">CVV</label>
+                                                </div>
+                                                <!-- <p class="displayerror" id="CRDRErr"></p> -->
+                                            </form>
+                                        </div>
+                                        <!--Net Banking details-->
+                                        <div class="tab-pane fade" id="list-net-banking" role="tabpanel" aria-labelledby="list-net-bank-list">
+                                            <form class="p-1em">
+                                                <p class="font-13p">A choice of more than 40 banks to make your payment</p>
+                                                <h6 class="payment-op"> Select from popular banks </h6>
+                                                <div class="row hidden-mobile">
+                                                    <div class="col-2 net-bank-logo net-bank sbi-icon net-bank-width NetbankingPopularBankClass" id="SBIN40NetbankingID" onclick="CheckBank('SBIN', '38');">
+                                                        <div class="payment-menu-icon-sbi ml-12px"></div> <span class="icon-text">SBI</span>
+                                                    </div>
+                                                    <div class="col-2 net-bank-logo net-bank hdfc-icon net-bank-width NetbankingPopularBankClass" id="HDFC18NetbankingID" onclick="CheckBank('HDFC', '17');">
+                                                        <div class="payment-menu-icon-hdfc ml-12px"></div> <span class="icon-text">HDFC</span>
+                                                    </div>
+                                                    <div class="col-2 net-bank-logo net-bank icici-icon net-bank-width NetbankingPopularBankClass" id="ICIC19NetbankingID" onclick="CheckBank('ICIC', '18');">
+                                                        <div class="payment-menu-icon-icici ml-12px"></div> <span class="icon-text">ICICI</span>
+                                                    </div>
+                                                    <div class="col-2 net-bank-logo net-bank axis-icon net-bank-width NetbankingPopularBankClass" id="UTIB3NetbankingID" onclick="CheckBank('UTIB', '3');">
+                                                        <div class="payment-menu-icon-axis ml-12px"></div> <span class="icon-text">AXIS</span>
+                                                    </div>
+                                                    <!-- <div class="col-2 net-bank-logo net-bank citibank-icon net-bank-width NetbankingPopularBankClass" id="CBIBAN_N9NetbankingID" onclick="CheckBank('CBIBAN_N', '');">
+                                                        <div class="payment-menu-icon-citibank ml-12px"></div> <span class="icon-text">Citibank</span>
+                                                    </div> -->
+                                                    <div class="col-2 net-bank-logo net-bank kotak-icon net-bank-width NetbankingPopularBankClass" id="KKBK28NetbankingID" onclick="CheckBank('KKBK', '27');">
+                                                        <div class="payment-menu-icon-kotak ml-12px"></div> <span class="icon-text">Kotak</span>
+                                                    </div>
+                                                </div>
+                                                <!-- mobile view tab-->
+                                                <div class="row p-1em">
+                                                    <div class="swiper-container lg-ml0 desktop-hide">
+                                                        <div class="swiper-wrapper md-check-margin">
+                                                            <div class="col-2 swiper-slide net-bank-logo net-bank sbi-icon net-bank-width NetbankingPopularBankClass" id="SBIN40NetbankingMobID" onclick="CheckBank('SBIN', '38');">
+                                                                <div class="payment-menu-icon-sbi ml-12px"></div> <span class="icon-text">SBI</span>
+                                                            </div>
+                                                            <div class="col-2 swiper-slide net-bank-logo net-bank hdfc-icon net-bank-width NetbankingPopularBankClass" id="HDFC18NetbankingMobID" onclick="CheckBank('HDFC', '17');">
+                                                                <div class="payment-menu-icon-hdfc ml-12px"></div> <span class="icon-text">HDFC</span>
+                                                            </div>
+                                                            <div class="col-2 swiper-slide net-bank-logo net-bank icici-icon net-bank-width NetbankingPopularBankClass" id="ICIC19NetbankingMobID" onclick="CheckBank('ICIC', '18');">
+                                                                <div class="payment-menu-icon-icici ml-12px"></div> <span class="icon-text">ICICI</span>
+                                                            </div>
+                                                            <div class="col-2 swiper-slide net-bank-logo net-bank axis-icon net-bank-width NetbankingPopularBankClass" id="UTIB3NetbankingMobID" onclick="CheckBank('UTIB', '3');">
+                                                                <div class="payment-menu-icon-axis ml-12px"></div> <span class="icon-text">AXIS</span>
+                                                            </div>
+                                                            <!-- <div class="col-2 swiper-slide net-bank-logo net-bank citibank-icon net-bank-width NetbankingPopularBankClass" id="CBIBAN_N9NetbankingMobID" onclick="CheckBank('CBIBAN_N', '');">
+                                                                <div class="payment-menu-icon-citibank ml-12px"></div> <span class="icon-text">Citibank</span>
+                                                            </div> -->
+                                                            <div class="col-2 swiper-slide net-bank-logo net-bank kotak-icon net-bank-width NetbankingPopularBankClass" id="KKBK28NetbankingMobID" onclick="CheckBank('KKBK', '27');">
+                                                                <div class="payment-menu-icon-kotak ml-12px"></div> <span class="icon-text">Kotak</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!---end***************************************-->
+                                                <h5 class="net-bnk-h5 hidden-mobile">OR</h5>
+                                                <img src="assets/images/or_img.png" class="center-or-img desktop-hide">
+                                                <div class="floating-label">
+                                                    <select class="floating-select" onclick="this.setAttribute('value', this.value);" value="" id="netBankingOtherBanksID" onChange="CheckBank(this,'dropdown');">
+                                                        <option value="">Select from other banks</option>
+                                                        <option data-index='1' title='Allahabad Bank' value='ALLA'>Allahabad Bank</option><option data-index='2' title='Andhra Bank' value='ANDB'>Andhra Bank</option><option data-index='3' title='AXIS Bank' value='UTIB'>AXIS Bank</option><option data-index='4' title='Bank of Bahrain & Kuwait' value='BBKM'>Bank of Bahrain & Kuwait</option><option data-index='5' title='Bank of India' value='BKID'>Bank of India</option><option data-index='6' title='Bank of Maharashtra' value='MAHB'>Bank of Maharashtra</option><option data-index='7' title='Bank of Baroda' value='BARB_R'>Bank of Baroda</option><option data-index='8' title='Canara Bank' value='CNRB'>Canara Bank</option><option data-index='9' title='City Union Bank' value='CIUB'>City Union Bank</option><option data-index='10' title='Catholic Syrian Bank' value='CSBK'>Catholic Syrian Bank</option><option data-index='11' title='Central Bank of India' value='CBIN'>Central Bank of India</option><option data-index='12' title='Corporation Bank' value='CORP'>Corporation Bank</option><option data-index='13' title='DCB BANK Personal' value='DCBL'>DCB BANK Personal</option><option data-index='14' title='Deutsche Bank' value='DEUT'>Deutsche Bank</option><option data-index='15' title='Dhanlaxmi Bank' value='DLXB'>Dhanlaxmi Bank</option><option data-index='16' title='Federal Bank' value='FDRL'>Federal Bank</option><option data-index='17' title='HDFC Bank' value='HDFC'>HDFC Bank</option><option data-index='18' title='ICICI Bank' value='ICIC'>ICICI Bank</option><option data-index='19' title='IDBI Bank' value='IBKL'>IDBI Bank</option><option data-index='20' title='Indian Overseas Bank' value='IOBA'>Indian Overseas Bank</option><option data-index='21' title='IndusInd Bank' value='INDB'>IndusInd Bank</option><option data-index='22' title='Indian Bank' value='IDIB'>Indian Bank</option><option data-index='23' title='ING Vysya Bank' value='KKBK'>ING Vysya Bank</option><option data-index='24' title='Jammu & Kashmir Bank' value='JAKA'>Jammu & Kashmir Bank</option><option data-index='25' title='Karnataka Bank' value='KARB'>Karnataka Bank</option><option data-index='26' title='Karur Vysya Bank' value='KVBL'>Karur Vysya Bank</option><option data-index='27' title='Kotak Mahindra Bank' value='KKBK'>Kotak Mahindra Bank</option><option data-index='28' title='Lakshmi Vilas Bank - Corporate' value='LAVB_C'>Lakshmi Vilas Bank - Corporate</option><option data-index='29' title='Lakshmi Vilas Bank - Retail' value='LAVB_R'>Lakshmi Vilas Bank - Retail</option><option data-index='30' title='Oriental Bank of Commerce' value='ORBC'>Oriental Bank of Commerce</option><option data-index='31' title='Punjab and Maharashtra Bank' value='PUNB_R'>Punjab and Maharashtra Bank</option><option data-index='32' title='Punjab National Bank Retail Accounts' value='PUNB_R'>Punjab National Bank Retail Accounts</option><option data-index='33' title='RBL Bank Limited' value='RATN'>RBL Bank Limited</option><option data-index='34' title='Shamrao Vithal Co-op. Bank Ltd' value='SVCB'>Shamrao Vithal Co-op. Bank Ltd</option><option data-index='35' title='South Indian Bank' value='SIBL'>South Indian Bank</option><option data-index='36' title='Standard Chartered Bank' value='SCBL'>Standard Chartered Bank</option><option data-index='37' title='State Bank of Hyderabad' value='SBHY'>State Bank of Hyderabad</option><option data-index='38' title='State Bank of India' value='SBIN'>State Bank of India</option><option data-index='39' title='State Bank of Mysore' value='SBMY'>State Bank of Mysore</option><option data-index='40' title='State Bank of Travancore' value='SBTR'>State Bank of Travancore</option><option data-index='41' title='State Bank of Bikaner and Jaipur' value='SBBJ'>State Bank of Bikaner and Jaipur</option><option data-index='42' title='State Bank of Patiala' value='STBP'>State Bank of Patiala</option><option data-index='43' title='Syndicate Bank' value='SYNB'>Syndicate Bank</option><option data-index='44' title='Tamilnad Mercantile Bank' value='TMBL'>Tamilnad Mercantile Bank</option><option data-index='45' title='Union Bank of India' value='UBIN'>Union Bank of India</option><option data-index='46' title='United Bank of India' value='UTBI'>United Bank of India</option><option data-index='47' title='Vijaya Bank' value='VIJB'>Vijaya Bank</option><option data-index='48' title='YES Bank' value='YESB'>YES Bank</option>                                                    </select>
+                                                    <span class="highlight"></span>
+                                                    <label class="bank-select-top" id="NETErr">Select from other banks</label>
+                                                </div>
+                                                <!-- <p class="displayerror" id="NETErr"></p> -->
+                                            </form>
+                                        </div>
+                                        <script>
+                                            function CheckBank(first,second) {
+                                                var indexVal,bank_val;
+                                                if(second == "dropdown")
+                                                {
+                                                    var opt = first.options[first.selectedIndex];
+                                                    indexVal = opt.dataset.index;
+                                                    bank_val = opt.value;
+                                                } else {
+                                                    indexVal = second;
+                                                    bank_val = first;
+                                                }
+                                                console.log("CheckBank function ===> indexVal: " + indexVal + "bank_val: " + bank_val);
+                                                $("#netBankingOtherBanksID option[data-index='" + indexVal + "']").prop("selected", true);
+                                                $(".NetbankingPopularBankClass").removeClass("active");
+                                                $('#' + bank_val + indexVal + "NetbankingID").addClass("active");
+                                                $('#' + bank_val + indexVal + "NetbankingMobID").addClass("active");
+                                            }
+                                        </script>
+                                        <!--NEFT details-->
+                                        <div class="tab-pane fade" id="list-neft-rtgs" role="tabpanel" aria-labelledby="list-neft-bank-list">
+                                            <form class="p-1em">
+                                                <h6 class="payment-op"> Pay using NEFT/RTGS</h6>
+                                                <p class="font-13p hidden-mobile">Share the transaction details with us after payment at <br> <span class="toll-free-no">+91 709 206 6066</span><span class="toll-free-no-color">(Toll Free)</span></p>
+                                                <p class="font-13p desktop-hide">Share the transaction details with us after payment at <span class="toll-free-no">+91 709 206 6066</span><span class="toll-free-no-color">(Toll Free)</span></p>
+                                                <div class="row hidden-mobile">
+                                                    <div bankIndex="0" class="col-2 neft-bank-logo neft-logo net-bank sbi-icon active">
+                                                        <div class="payment-menu-icon-sbi"></div> <span class="icon-text">SBI</span>
+                                                    </div>
+                                                    <div bankIndex="1" class="col-2 neft-bank-logo neft-logo net-bank hdfc-icon">
+                                                        <div class="payment-menu-icon-hdfc"></div>
+                                                        <span class="icon-text">HDFC</span>
+                                                    </div>
+                                                    <div bankIndex="2" class="col-2 neft-bank-logo neft-logo net-bank icici-icon">
+                                                        <div class="payment-menu-icon-icici"></div>
+                                                        <span class="icon-text">ICICI</span>
+                                                    </div>
+                                                    <div bankIndex="3" class="col-2 neft-bank-logo neft-logo net-bank axis-icon">
+                                                        <div class="payment-menu-icon-axis"></div>
+                                                        <span class="icon-text">AXIS</span>
+                                                    </div>
+                                                    <div bankIndex="4" class="col-2 neft-bank-logo neft-logo net-bank federal-icon">
+                                                        <div class="payment-menu-icon-federal"></div>
+                                                        <span class="icon-text">FEDERAL</span>
+                                                    </div>
+                                                </div>
+                                                <!-- mobile view tab-->
+                                                <div class="row p-1em">
+                                                    <div class="swiper-container lg-ml0 desktop-hide">
+                                                        <div class="swiper-wrapper md-check-margin">
+                                                            <div bankIndex="0" class="col-2 swiper-slide neft-bank-logo neft-logo net-bank sbi-icon active net-bank-width">
+                                                                <div class="payment-menu-icon-sbi"></div> <span class="icon-text">SBI</span>
+                                                            </div>
+                                                            <div bankIndex="1" class="col-2 swiper-slide neft-bank-logo neft-logo net-bank hdfc-icon net-bank-width">
+                                                                <div class="payment-menu-icon-hdfc"></div>
+                                                                <span class="icon-text">HDFC</span>
+                                                            </div>
+                                                            <div bankIndex="2" class="col-2 swiper-slide neft-bank-logo neft-logo net-bank icici-icon net-bank-width">
+                                                                <div class="payment-menu-icon-icici"></div>
+                                                                <span class="icon-text">ICICI</span>
+                                                            </div>
+                                                            <div bankIndex="3" class="col-2 swiper-slide neft-bank-logo neft-logo net-bank axis-icon net-bank-width">
+                                                                <div class="payment-menu-icon-axis"></div>
+                                                                <span class="icon-text">AXIS</span>
+                                                            </div>
+                                                            <div bankIndex="4" class="col-2 swiper-slide neft-bank-logo neft-logo net-bank federal-icon net-bank-width">
+                                                                <div class="payment-menu-icon-federal"></div>
+                                                                <span class="icon-text">FEDERAL</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!---end***************************************-->
+                                                <br>
+                                                <table class="table table-borderless table-sm font-13p " id="hdfc-bank-detail">
+                                                    <tr>
+                                                        <td>Pay to A/C no.</td>
+                                                        <td id="bank-accno-id" class="bold"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>A/C Name</td>
+                                                        <td class="bold"> Matrimony.com Pvt Ltd</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>IFSC code</td>
+                                                        <td id="bank-ifsc-id" class="bold"></td>
+                                                    </tr>
+                                                </table>
+                                            </form>
+                                        </div>
+                                        <!--UPI Details-->
+                                        <div class="tab-pane fade" id="list-upi-pay" role="tabpanel" aria-labelledby="list-upi-pay-list">
+                                            <form class="p-1em" id="upiFormID">
+                                                <h6 class="payment-op"> Pay using UPI/VPA </h6>
+                                                <p class="font-13p">VPA is a unique payment address that can be linked to person's bank account to make payments. Eg:0123456789@upi</p>
+                                                <div class="floating-label input-group input-group-pay">
+                                                    <input type="text" autocomplete="off" placeholder="Enter Your Virtual Payment Address (VPA)" id="upiID" class="floating-input">
+                                                    <span class="highlight"></span>
+                                                    <label for="cardnumber" class="control-label " id="UPIErr">Enter Your Virtual Payment Address (VPA)</label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!--paypal details-->
+                                        <!-- <div class="tab-pane fade" id="paypal-div" role="tabpanel" aria-labelledby="list-net-paypal-list">
+                                            <form class="p-1em">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <h6 class="payment-op">Pay Using PayPal</h6>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <img src="assets/images/secured_paypal.svg" class="secured_paypal hidden-mobile">
+                                                        <h6 class="paypal-text desktop-hide">Secured by <span class="pay">Pay</span><span class="pal">Pal</span></h6>
+                                                    </div>
+                                                </div>
+                                                <p class="secured_pay_p">Make your payment online through your PayPal account. PayPal is a safer and easier way to pay. We also accept PayPal Top Up Card, Discover Card and American Express Card.</p>
+                                            </form>
+                                        </div> -->
+                                        <!--Money Transfer details-->
+                                        <div class="tab-pane fade" id="paypal-div" role="tabpanel" aria-labelledby="list-net-paypal-list">
+                                            <form class="p-1em">
+                                                <h5 class="payment-op">For Foreign Remittances to be sent in USD</h5>
+                                                <p class="secured_pay_p"><span class="font-weight-bold">Beneficiary's name and address :</span> Matrimony.com Limited,  TVH Beliciaa Towers, Tower II, 5th Floor, No 94,  MRC Nagar, Mandaveli, Chennai -600028</p>
+                                                <p class="secured_pay_p"><span class="font-weight-bold">Beneficiary bank account no :</span> EEFC A/c. No. 03862430000113</p>
+                                                <p class="secured_pay_p"><span class="font-weight-bold">Beneficiary's bank name, branch name, address:</span> HDFC Bank Ltd, Santhome Branch,  No 99, Senans Square, Santhome High Road, Santhome, Chennai,   Tamil Nadu, India, 600028</p>
+                                                <p class="secured_pay_p"><span class="font-weight-bold">Beneficiary's bank's swift code :</span> HDFCINBBCHE</p>
+                                                <p class="secured_pay_p"><span class="font-weight-bold">Beneficiary bank's correspondent bank details. - name, address, swift code* :</span> JPMorgan Chase Bank, NEW YORK, Correspondent Account Number 001-1-406717. Additional Account Details  CHIPS ABA:0002  SWIFT Code CHASUS33 </p>
+                                                <p class="secured_pay_p"><span class="font-weight-bold">Purpose of remittance :</span> Business and Management Consultancy Services</p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 hideMobileInitialLoadingClass" style="display:none;">
+                        <h4 class="hidden-mobile">Summary</h4><br>
+                        <div class="container em-border-summery summery-border discount-border">
+                            <div class="row ">
+                                <h6 class="elit-mt w-100 discount-elite-m">Elite Membership</h6>
+                                <div class="col-7">
+                                    <p class="pay-summery-p" style="width: 145px;"> Ultimate 12 Months</p>
+                                </div>
+                                <div class="col-5">
+                                    <p class="pay-summery-p" id="packageAmountID">Rs. 4,50,000 /-</p>
+                                </div>
+                                <div class="col-7" id="discountLabelDIV" style="display:none">
+                                    <p class="pay-summery-p discount-p">Discount</p>
+                                </div>
+                                <div class="col-5" id="discountAmountDIV" style="display:none">
+                                    <p class="pay-summery-p discount-p" id="discountAMT"></p>
+                                </div>
+                                <div class="col-7" id="totalLabelDIV" style="display:none">
+                                    <p class="pay-summery-p">Total</p>
+                                </div>
+                                <div class="col-5" id="totalAmountDIV" style="display:none">
+                                    <p class="pay-summery-p" id="totalAMT"></p>
+                                </div>
+                                <div class="col-7" id="gstLabelDIV" style="display:none">
+                                    <p class="pay-summery-p">GST 18%</p>
+                                </div>
+                                <div class="col-5" id="gstAmountDIV" style="display:none">
+                                    <p class="pay-summery-p" id="gstAMT"></p>
+                                </div>
+                            </div>
+                            <hr class="hr-sty">
+                            <div class="row">
+                                <div class="col-7">
+                                    <p class="pay-summery-p fsize-16px">You Pay</p>
+                                </div>
+                                <div class="col-5">
+                                    <p class="pay-summery-p fsize-16px"><strong class="chargeTotalAmountClass"> Rs. 5,31,000 /-</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="pay-note" id="successFeeDisplayAmountID"></p>
+                    </div>
+                </div>
+                <div class="row p-bottom" id="pay-securely-id">
+                    <div class="col-md-3 mx-w"></div>
+                    <div class="col-md-6 justify-content-center hideMobileInitialLoadingClass" style="display:none;">
+                        <div class="input-group text-center pay-secure-btn-div">
+                            <button type="submit" class="btn btn-danger mb-2 em-submit-btn form-control" id="securePaymentSubmitID">
+                                <img src="assets/images/pay.svg"> &nbsp; Pay Securely
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <!-- START FORM HIDDEN VALUES FOR SUBMIT -->
+                        <input type="hidden" id="activePaymentOptionID">
+                        <input type="hidden" id="eliteMemberMailid">
+                        <input type="hidden" id="eliteMemberAddress">
+                        <input type="hidden" id="apiEmMatriid">
+                        <input type="hidden" id="eliteMemberPhoneNo">
+                        <input type="hidden" id="discountPromoCheck">
+                        <input type="hidden" id="GSTExclusive">
+                        <input type="hidden" id="chargeTotalAmountID">
+                        <input type="hidden" id="packageValiddaysID">
+                        <input type="hidden" id="mobPaymentOptionSliderVisibleID">
+                        <!-- END FORM HIDDEN VALUES FOR SUBMIT -->
+                    </div>
+                </div>
+            </div>
+            <div class=" ">
+                <div class="row">
+                    <img src="assets/images/bottomleft.png" class="bottom-left bottomleft-img hidden-mobile">
+                </div>
+            </div>
+        </div> <!-- /container -->
+        <div class="container-fluid pay-container hideMobileInitialLoadingClass" style="display:none;">
+            <div class="container logo-padding">
+                <div class="row w-100">
+                    <div class="col-md-6">
+                        <div class="row  ">
+                            <div class="col-3"> <img src="assets/images/visa.svg" class=" img-tumb"> </div>
+                            <div class="col-3"> <img src="assets/images/master.png" class=" img-tumb"></div>
+                            <div class="col-3"> <img src="assets/images/pci.png" class="img-tumb "></div>
+                            <div class="col-3"><img src="assets/images/safekey.png" class="img-tumb "></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row  ">
+                            <div class="col-3 d-md-none"> </div>
+                            <div class="col-3 col-md-4"><img src="assets/images/verisign.png" class="img-tumb verisign-img"></div>
+                            <div class="col-3 col-md-4"><img src="assets/images/trustwave.svg" class="img-tumb"> </div>
+                            <div class="col-3 d-md-none"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <!--START Modal => I agree to the Terms and Conditions Popup -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title terms-text-header" id="exampleModalLongTitle">Terms and Conditions of membership in Elite Matrimony.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row text-center pb-5 xs-pt0">
+                        <div class="col-md-11 col-12 mx-auto   pl-0 xs-pt0">
+                            <div class="row mt-2">
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10">This document is an electronic record in terms of the Information Technology Act, 2000 and rules there under pertaining to electronic records as applicable and amended. This electronic record is generated by a computer system and does not require any physical or digital signatures.</div>
+                                        <div class="mt-4 xs-small-text1 xs-mt10">This document is published in accordance with the provisions of Rule 3 (1) of the Information Technology (Intermediaries guidelines) Rules, 2011 that require publishing the rules and regulations, privacy policy and the terms and conditions for access or usage of www.elitematrimony.com (the "Website").</div>
+                                        <div class="mt-4 xs-small-text1 xs-mt10">Please read the following terms and conditions very carefully as your use of the Website and associated EM Services (as defined below) is subject to your acceptance of and compliance with the following terms and conditions including the applicable policies which are incorporated herein by way of reference and as amended from time to time (the "Terms and conditions").</div>
+                                        <div class="mt-4 xs-small-text1 xs-mt10">ACCESSING, BROWSING OR OTHERWISE USING THE WEBSITE INDICATES YOUR AGREEMENT TO ALL THE TERMS AND CONDITIONS HEREIN, SO PLEASE READ THE TERMS AND CONDITIONS CAREFULLY BEFORE PROCEEDING. By impliedly or expressly accepting these Terms and Conditions of use of website, You also accept and agree that you have read, understood and are bound by these Terms and conditions, regardless of how you/EM member subscribe to or use the EM Services. If you do not want to be bound by the Terms and Conditions, you must not use the EM Website or the EM Services.</div>
+                                        <div class="mt-4 xs-small-text1 xs-mt10">In these Terms, references to "You" or "User" or "EM member" shall mean the end user accessing the EM Website/EM services, its contents or using the EM Services offered. "EM Services" means a collective reference to the Elite Matrimony service provided by Matrimony.com Limited, CIN : U63090TN2001PLC047432, a company under the provisions of companies act, 2013 and having its registered office at No.94, TVH Beliciaa Towers, Tower - 2, 10th Floor, MRC Nagar, Chennai, Tamil Nadu - 600 028 ('MCL/Company').</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">Scope</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10">Elite Matrimony [EM] is personalized match making services of Matrimony.com Limited, which is valid for a period of the applicable package chosen by you (and visible on this website) from the date of taking the EM package and as detailed in Clause 3 herein below ("Tenure"). EM may at its sole discretion extend the EM services beyond Tenure, however if such EM services are provided based on additional payment to be made by the registered EM member, if any. Membership to EM is exclusively through invitation. EM is an endeavor to help you find your dream life partner (prospect) through the process of searching, shortlisting and contacting prospects, during the Tenure. Upon availing our EM service a dedicated Relationship Manager ("RM") will be assigned to you during the Tenure of EM Service. based on your set partner preference RM shall assist you in processing your request for lawful marriage partner search through the database of members listed on the consortium of portals owned by matrimony.com limited. EM Membership is guided by the terms and conditions mentioned herein below. By using or accessing the EM Services, you agree to be bound by all the terms and conditions ("Agreement"):</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">1. Eligibility</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) EM Membership and rights of admission is reserved solely for :
+                                            <ul>
+                                                <li>Indian Nationals & Citizens.</li>
+                                                <li>Persons of Indian Origin (PIO).</li>
+                                                <li>Non Resident Indians (NRI).</li>
+                                                <li>Persons of Indian Descent or Indian Heritage</li>
+                                                <li>Persons who intend to marry persons of Indian Origin.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) Further in capacity as EM member you confirm that you are :
+                                            <ul>
+                                                <li>18 years or above (if you are a woman) or 21 years or above (if you are a man);</li>
+                                                <li>Legally competent to marry as per the law applicable to you, and</li>
+                                                <li>Not prohibited or prevented by any applicable law for the time being in force from entering into a valid marriage.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">2. Enquiries to EM website</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">While accessing the EM website, you may:
+                                            <ul>
+                                                <li>Fill in the details for EM to call you back, or</li>
+                                                <li>Call EM at the toll free number to enquire about the EM services, or</li>
+                                                <li>Email your enquiries about EM services.</li>
+                                                <li>Chat with the EM service team about the EM service.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">3. Registration</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) If you intend to register with EM, after enquiries of EM services, then EM shall send you a physical subscription form /online subscription form (as applicable) ('EM Subscription Form'), for keying in your essential details and filling in the blanks. We expect that you would complete the EM subscription form with fairness and honesty while furnishing your personal informations. You would appreciate that efficient and effective match making by EM (as part of EM services) depend upon yourself furnishing true, accurate, current and complete information, photo(s) etc. EM expect you to read the relevant column before entering in the details or selecting the option available or providing/uploading your photo(s). You are requested not to enter details of the profile in field other than the applicable field (including mentioning id's of other platforms/websites/ applications/irrelevant information) or repeating your details in another fields, after filling them once in the relevant fields or providing other persons photographs. You further undertake that you alone shall be responsible or liable for any information provided to EM by you. In order to serve you better if EM requires additional details you agree to provide the same to EM. EM shall reproduce the EM Subscription Form details on "AS IS AS AVAILABLE" basis to other members (i.e. members listed on the consortium of portals owned by matrimony.com limited / EM database etc.), and EM members shall be solely liable for the information given by such EM member.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) If at any point of time EM comes to know or has reasons to believe that any information provided by you for registration or otherwise is found to be untrue, inaccurate, or incomplete then EM shall have full right to suspend or terminate your membership and forfeit the amount paid by you towards EM membership fee and refuse to EM service to such EM member thereafter without any notice.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">4. Tenure</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">Tenure of the EM service shall dependent upon the package offered by EM or for any tenure which may be introduced from time to time by EM and chosen by you after appropriate payment
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">5. Mode of Payment</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) Payment made by cash / cheque / Net Banking / Debit / Credit Card would be in accordance with the prevailing RBI guidelines. Activation of EM service shall be subject to realization of the said payment. In case of dishonor of Cheque/demand draft; you shall be liable to pay applicable bank's cheque/DD bouncing charges. Further EM service to your account will be deactivated / suspended until you settle the value of the payment and applicable bank charges in cash.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) EM may use third party payment gateways for collection of credit/debit card or other payment instruments. In case of such payment gateway failure the same would be communicated to the EM member by the payment gateway provider. EM shall not be responsible for Extra currency/conversion charges/deductions/error issues from payment gateway. In the case of failed online transactions, which result in no services, EM offers no guarantees whatsoever for the accuracy or timeliness of the refunds reaching the Members card/bank accounts through the payment gateways.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) Member who has opted for any EM package in which the EM member needs to pay on success, then such EM member shall pay the balance amount on finalization of your marriage.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(D) You agree to provide us with your Permanent Account Number / Form 60/61 of the Income Tax Act, 1961 and rules thereunder in the event you choose any paid package of MCL, the value of such paid package being Rs.2,00,000/- [Rupees Two Lakh Only] and above from MCL.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">6. Role and Responsibility of EM</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) Upon enrollment into the EM services, EM shall assign a Relationship Manager (RM) to you, who will help you with the process of match making search during the tenure of EM service.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) EM will endeavor to provide profile(s) as per your set partner preference subject to availability of profile in the data base of the consortium of portals owned by Matrimony.com Limited. The EM service will be carried out only during normal working hours of EM i.e., 09:30 am to 06:00 pm Monday to Saturday excluding Sunday and public holidays for Indian Members and for Non-Resident Indian Members the working hours shall be from 09:30 am to 06:00 pm (indian Standard Time) [Monday] to [Saturday] excluding Sunday and public holidays in India. RM entrusted with your profile can contact the EM member at least 2 times in a week to update the EM member's on profile management.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) The EM is under no obligation to furnish any definite number of profiles, if there are none available, which are corresponding to the partner preference set by you.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(D) EM shall shortlist and initiate contact with prospects if age difference is as follows:
+                                            <ul>
+                                                <li>For male members - Prospects age difference is less than 10 years.</li>
+                                                <li>For Female members - Prospects is of same age or above.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(E) Similarly in case Marital Status of the member is Divorced / Widowed / Separated / Annulled then EM member shall shortlist and initiate contact with prospects who are Divorced / Widowed / Separated / Annulled only. EM will not get in touch with prospects with different marital status.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(F) Suggestions made by RM are based on the data provided by the EM members in their partner preference. EM member is expected to exercise due care and caution while proceeding with finalization of marriage with the shortlisted profile.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(G) The profiles shared with members are from the data available from the consortium of portals from Matrimony.com Limited.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(H) Member who has opted for any EM package in which the EM member needs to pay on success such EM Members profile will be retained in the EM database until the member communicates finalization of his / her marriage or intention not to retain in the database expressly in writing.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(I) At EM we value your privacy. We consider EM member contact information as confidential hence will be shared to prospect only after obtaining EM member's consent.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(J) EM's responsibility is restricted only to offer match making profiles to EM members based on the partner preference set by EM members. EM cannot guarantee or assume responsibility for any specific results from the use of the data available from the consortium of websites/portal's from Matrimony.com Limited and / or the EM service. In case partner preference is modified by EM member, then the EM service search results may also undergo corresponding changes.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(K) Shortlisted profile information link shared with EM members will be active only for 10 days from the shared date.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(L) EM does not give any implied or explicit guarantee or warranty of marriage or alliance by you choosing to register on our website and using EM services.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(M) As part of EM service, EM may, upon confirmation received from you and prospect, arrange for a meeting between you and prospect (with/without your/prospects family members/friends joining in). The venue of such meeting shall be duly intimated to you by RM.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">7. Role and Responsibility of EM Member</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) To protect the broader interest of the registered EM member and increase the efficiency, RM shall only work with registered EM member. All EM members should disclose the details of email id and phone no. to RM. All communication between EM/RM will be to EM member only.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) Acceptance by EM member shall be deemed final.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) Any additional information / data required by EM for profile management shall be provided by the EM Member as and when so sought by RM. Time and opportunity loss associated with the delay in response shall be borne by the EM member themselves and EM/RM shall not be responsible for the same.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(D) EM member can expect EM/RM to short list and share profiles of those prospects whose partner preference and expectations are matching with the EM member's profile. In case partner preference is modified by EM member, then the EM service search results may also undergo corresponding changes.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(E) EM members are requested to exercise due care and caution while shortlisting the prospect and satisfy themselves before making a choice of your match through adequate efforts, initiatives and due diligence. EM will not be liable for short coming due to any misrepresentations made by any of its EM members/prospects to you.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(F) EM members are expected to verify the credentials of the prospect such as family status, educational qualifications, financial status, occupation, character, etc.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(G) EM Members are expected to provide latest photograph which should not be more than 3 months old. Providing old photographs, inaccurate / false information of their educational qualification and income details shall be treated as violation of terms and conditions and EM shall retain their right under clause 3 (b) of this terms and conditions.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(H) EM members are expected to disclose their health records during profile enrollment which includes any pre-existing illness, physical disability etc. Non- disclosure at the time of enrollment shall be treated as violation of the terms and conditions and EM shall retain their right under clause 3 (b) of this terms and conditions.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(I) EM Members are expected to refrain from :
+                                            <ul>
+                                                <li>Entering into financial transactions with shortlisted prospects prior to solemnization of marriage.</li>
+                                                <li>Dealing with shortlisted prospects before carrying out due verifications of the prospect.</li>
+                                                <li>Entering into physical relationship with prospect before marriage.</li>
+                                                <li>Sharing of confidential and personal data with each other but not limited to sharing of bank details, etc.</li>
+                                                <li>Not violates any law for the time being in force;</li>
+                                            </ul>
+                                        </div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(J) EM Members are expected to visit <a href="https://www.bharatmatrimony.com/safe-matrimony/index.php">https://www.bharatmatrimony.com/safe-matrimony/index.php</a> for understanding the safety measures on partner search and awareness towards online safety.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(K) To serve EM member better based on instruction from RM, the EM member are agreeable for creating profile in any / all of the consortium of portal owned by Matrimony.com Limited. You will regularly log in to the profile maintained in the consortium of portals from Matrimony.com Limited and share with EM/RM the matri ID of other members who have shown their expression of interest and have sent personalized messages to you.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(L) To serve us better EM may place Matrimonial Classifieds derived from our profile in newspapers, television or any other media at the discretion of EM masking the name and address of the member.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(M) EM members understands and agrees RM may convene the meeting between you and prospect (if both parties agree), and you shall bear/share the costs of such meeting with prospects (as may be mutually agreed with such prospectus, to the exclusion of EM.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(N) EM Members are expected to be cautious of prospects who call from multiple numbers, only interact over phone, doesn't come forward for face to face meeting (physically or through video calls) and don't involve family and friends in match making. Beware of suspended profiles status before you finalize an alliance with the prospect.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(O) EM Member cannot use the profile shared to them for the benefit of any third person(s) or for gaining any commercial benefits.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(P) EM Membership is restricted strictly to the registered EM individual member only. Organizations, companies, businesses and/or individuals carrying on similar or competitive business cannot become Members of EM and nor use the EM Service or EM members data for any commercial purpose. EM reserve its right to initiate appropriate legal action for such data misuse/theft</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(Q) EM member shall not assign or transfer your EM membership to any other person or entity.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(R) EM members cannot put the EM service on hold, even temporarily, for any reasons whatsoever. Based on the tenure of EM service and date of payment taken, the expiry of EM service will automatically happen on expiry of the Tenure of the applicable package taken by you.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(S) If the EM member fails to inform EM/RM about any change in the particulars furnished by EM member then the EM membership may be suspended at the sole discretion of EM.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">8. Customer Care / Customer Service</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">In the event you come across any concerns in our service, then please be free to contact us:
+                                            <div>Email ID : <a href="mailto:care@elitematrimony.com">care@elitematrimony.com</a></div>
+                                            <div>Contact No : 1800-3000-3456</div>
+                                            <div>Address : Matrimony.com Limited</div>
+                                            <div>No.94, TVH Beliciaa Towers, Tower - 2,</div>
+                                            <div>5th Floor, MRC Nagar, Chennai,</div>
+                                            <div>TamilNadu - 600 028</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">9. Medium of Communication to EM Members</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) EM member hereby consents for receiving communication including promotional communications through any medium of communications such as Emails and /or SMS/Calls/Chat from consortium of portals owned by MCL or their alliance partners.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) EM may contact the EM member through any of the above media to share the profile of the prospect by way of internal messages / links. EM member confirms that the mobile number submitted to it for verification or alternative number if any provided, is not registered with the Do Not Disturb / National Customer Preference Register and they shall not initiate any complaint. EM Member further confirms that even if EM Member is registered with the telecom service provider under the category Do Not Disturb / National Customer Preference Register the calls from EM either to the verified mobile number or alternative number if any provided shall not be treated as promotional calls.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) You agree to receive calls from Relationship Manager of Elite Matrimony for contacting you as a shortlisted profile for their registered members, even after the EM service Tenure is over.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">10. Confidentiality</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">
+                                            <ul>
+                                                <li>EM will maintain confidentiality of all personal information [other than that meant for sharing with the prospect] furnished by EM members and shall take all possible and /or bonafide steps for maintaining the confidentiality. However, EM member may divulge such information if required by law (without prior intimation to you).</li>
+                                                <li>Any feedback you provide to EM member shall be deemed to be non-confidential. EM member shall be free to use such information on an unrestricted basis. Further, by submitting the feedback, you represent and warrant that (i) your feedback does not contain confidential or proprietary information of yourself or third parties; (ii) EM member is not under any obligation of confidentiality, express or implied, with respect to the feedback; (iii) you are not entitled to any compensation or reimbursement of any kind from EM member for the feedback under any circumstances.</li>
+                                                <li>You agree that EM has all the right to process your data through the automated process to serve you with suitable profiles (based on your set partner preference) from EM or MCL's consortium of websites and may also send you communication in this regard.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">11. Privacy of Membership</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) EM member is committed to protecting the member's privacy and shall take all efforts to protect any personal data provided to us by reasonable security safeguards against such risks as loss or unauthorised use, destruction, modification or disclosure of data etc.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) Although we will strive to safeguard the confidentiality of your personally identifiable information, transmissions made by means of the Internet cannot be made absolutely secure. EM member understand and agree that EM will have no liability for disclosure of your information due to errors in transmission or unauthorized acts of third parties.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) You also agree to keep the profiles shared with you as confidential, to avoid any misuse of the profile so shared by EM with you.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(D) Please read and comprehend our Privacy Policy, which also governs your visit to EM website or for use of EM services, to understand our practices.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(E) EM members agree that if their profile(s) is listed on the MCL consortium of websites, and if their profile is crawled and indexed by search engines, where MCL consortium of websites and its network does not have any control over the search engines behavior. In such an event EM shall not be responsible for such activities of other search engines/third party websites.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(F) You agree that, when you use third party services through Website, you hereby grant EM the right to share your information needed for providing such third party services to you or in relation to processing your information for office use of EM/its payment gateway and/or such third party service providers.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">12. Grievance Officer</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">In the event you come across any violation by another user including but not limited to having content in the web site that is obscene, menacing, grossly offensive, harming minors, infringing copyright, patents, etc., or another user is impersonating etc. you may then please be free to provide your concerns in writing or email us with digital signature to :
+                                            <div>Email: <a href="mailto:grievanceofficer@matrimony.com ">grievanceofficer@matrimony.com</a> ,</div>
+                                            <div>Grievance Officer: Mr. Akilan Paneerselvam</div>
+                                            <div>Contact Address :M/s. Matrimony.com Limited,</div>
+                                            <div>No.94, TVH Beliciaa Towers, Tower - 2,</div>
+                                            <div>5th Floor, MRC Nagar, Chennai,</div>
+                                            <div>TamilNadu - 600 028</div>
+                                            <div class="mt-2 xs-mt10">The Grievance officer shall be available between 10 am till 6 pm Indian Standard Time from Monday to Saturday excluding Sunday and public holidays in India. The Grievance officer is appointed as per Rule 3 (11) of The Information Technology (Intermediaries Guidelines) Rules, 2011. Please see in other sections within this user agreement for comprehensive list of offences that Grievance Officer will handle.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">13. Disputes between Members</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">
+                                            <ul>
+                                                <li>You as registered members of EM/MCL consortium of portals are bound by these terms and condition. We request you to follow the guidelines of safe matrimony (see URL <a href="https://www.bharatmatrimony.com/safe-matrimony/index.php" target="_blank">https://www.bharatmatrimony.com/safe-matrimony/index.php</a> and give truthful information about yourself to RM to avoid dispute between you and the prospect.</li>
+                                                <li>You would appreciate that EM endeavor to search the prospect on the basis of the partner preference set by both the registered members and share the contact details with each such prospect, after taking your due consent to share such contact details.</li>
+                                                <li>EM is not a broker or the agent of any EM member and EM does not partake in the exchange of any kind of discussion between the EM members and prospects or the results of their discussion. EM Member's are solely responsible for the communications with prospect.</li>
+                                                <li>EM shall not be held responsible for any interactions/ passing of information(s) etc. between any EM members via e-mail, call, chat or any other medium with prospect. And EM also expressly disclaims any responsibility or liability for any transactions or interactions between the EM members inter-se.</li>
+                                                <li>EM has no obligation, to monitor any such disputes arising between the members, and EM shall not be party to any such dispute/litigation etc.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">14. Content Right</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">
+                                            <ul>
+                                                <li>You (i.e. the EM member taking the EM package) acknowledge that you are responsible for the content and information including the profile details, photograph and other content provided at the time of the creation of the EM profile and also all the post and communication with other members. You hereby represent and warrant that you own all rights, title and interest in your content or have the necessary licenses, rights, consents, and permissions to provide the said content. However, by submitting the content to EM, you hereby grant EM a worldwide, non-exclusive, royalty-free, sub-licensable and transferable license to use, reproduce, distribute, prepare derivative works of, display, publish, communicate to the public and the EM's business and services, including without limitation for promoting, communicating to the public and redistributing part or all of the content (and derivative works thereof) in any media formats and through any media channels.</li>
+                                                <li>You hereby also grant EM a non-exclusive license to access your content and to use, reproduce, distribute, prepare derivative works of, display, communicate to the public and perform such content.</li>
+                                                <li>While EM does not accept any obligation to monitor the content, if the content is found not to be in compliance with these Terms, EM may delete the content and / or terminate your registration without a refund of any subscription paid by you, in terms of clause 3 (b) of these terms and conditions. You agree that if the situation warrants, then MCL may at its sole discretion put restriction on any EM member to other member's communications.</li>
+                                                <li>EM reserves the right to suspend/delete the profile of the users who appropriate the name, likeness, email address, contact no or other personally identifiable information of another individual and EM also reserves its right to initiate appropriate legal action against such individual, as and when EM get the knowledge of the same.</li>
+                                                <li>Elite Matrimony is a brand owned by MCL. MCL owns, retains and has complete rights in EM and the EM Service.</li>
+                                                <li>MCL reserves the right to proceed/initiate appropriate steps under the prevailing law against infringement by violators of the said proprietary rights for illegal copying, modifying, publishing, transmitting, distributing, performing, displaying, or selling of any such proprietary information.</li>
+                                                <li>In the event we get a complaint against you and consequently we have suspended/deleted your profile in good faith, then we shall not be liable to you in any manner whatsoever, including for any loss, costs, expenses, or consequence, if any.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">15. Renewal</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">Before the expiry of the Tenure of the EM package, you have the option to renew the subscription by paying the renewal fee for the EM package opted for.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">16. Subscription Fee for the chosen EM Package</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">You will appreciate that to service your profile lot of time and energy of the RM is spend in assisting you in searching the profiles as per the partner preference set by you, etc. As such payments made to EM by way of registration / membership / renewal fee is /are treated as non-refundable. Payment once made cannot be assigned to any person/party or adjusted towards any other product or packages provided by the Company.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">17. Third Party website</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) EM member understand and agree that EM may allow third parties to put up advertisements on the EM Website, and EM does not control the contents of such third party advertisement on the EM Website. Third party websites to which links are given on Website are not governed by these Terms and conditions and all such third party websites are governed by their own terms and conditions for use and privacy policy, and in case of conflict, the terms and conditions of the third party website shall prevail. The MCL does not in any manner whatsoever authenticate, endorse, verify or certify these third party websites or any contents therein. Please note that a user shall click on links to third party websites at his / her sole risk and responsibility.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) The EM members agrees and understands that EM may also allow third parties to provide EM members services on the website like horoscope matching etc., and EM may also collect the payment for such third party services from you, and EM in this regard can have revenue sharing arrangement with the such third party, however in no event shall EM be liable to you for such third party services.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) EM reserves the right to add/delete/alter/modify/suspend any or all the EM Services at any time as it may deem fit, without notice. The EM members are expected to see the change to the terms of EM services on the Website regularly.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">18. Limitation of liability</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) EM likes to inform you that the exchange of profile(s) through or by EM should not in any way be construed as a matrimonial offer and/or recommendation and / or advice given to the member from or by EM.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) MCL / EM or its Office bearers shall under no circumstances be liable or responsible to the EM member or his/her authorized Representative or Guardian or any third party for any indirect, special, exemplary, incidental, or consequential damages of any character including, without limitation, damages resulting from the use of EM services / Website / third party website.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) Notwithstanding anything to the contrary contained herein, EM's liability to you for any cause whatsoever, and regardless of the form of the action, will at all times be limited to the amount paid, if any, by you to EM, for the EM Service during the term of EM membership.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(D) MCL/EM will not be liable in case of any wrong match made due to any available data / profile from the MCL's consortium of websites.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(E) MCL / EM or its office bearers shall under no circumstances be liable, if any, AM member enter into financial transaction with any prospect or third party.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(F) MCL / EM or its office bearers shall under no circumstances be liable, if any matrimonial alliance is not responded/reciprocated by the prospect(s).</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">19. General</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">
+                                            <ul>
+                                                <li>The EM website shall be deemed to be used by you when it is loaded and/or continues to be loaded in temporary or permanent memory of your mobile phone, computer or any other device or in the internet browser thereof.</li>
+                                                <li>EM website act's as an intermediary as defined under sub-clause (w) of Section 2 of the Information Technology Act, 2000.</li>
+                                                <li>In the event you file a false complaint against another prospects on our Website and consequently we have suspended/deleted that prospects profile based on your complaint, then we reserve our right to initiate appropriate legal (Civil/Criminal) action against you and claim any and all costs expenses from you, for such irresponsible/ misrepresentation/ illegal/unlawful action. We also reserve our right to suspend your profile and forfeit any and all amounts paid by you for the EM services.</li>
+                                                <li>Notwithstanding anything contained herein, EM reserves the absolute right to delete, in any manner as it deems fit, any content of any profile listing placed on website / MCL consortium of websites (once such instance come to EM/MCL's notice) in order to ensure compliance with the prevailing laws in force for the time being, especially those relating to providing any obscene, libelous, blasphemous, slanderous, defamatory or invasive of another person's (deceased or alive) right of privacy or publicity, or that may reasonably be deemed to be harmful, vulgar, pornographic, abusive, harassing, threatening, hateful, objectionable with respect to race, religion, creed, nationality, gender or otherwise unfit for reproduction; or suggests or encourages unfair or illegal /indecent, unlawful activity/communication. EM also reserves the right to block/ delete / suspend the profile which might be offensive, illegal or that might violate the rights, harm or threaten the safety of our office bearers/employees (including undue communication with any employee) and/or other registered prospects.</li>
+                                                <li>The Grievance Officer shall handle complaints in relation to the following violation by the User of computer resource as the User is not entitled to host, display, upload, modify, publish, transmit, update or share any information on the Website that -</li>
+                                            </ul>
+                                        </div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) belongs to another person and to which the User does not have any right to;</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) is grossly harmful, harassing, blasphemous defamatory, obscene, pornographic, paedophilic, libellous, invasive of another's privacy, hateful, or racially, ethnically objectionable, disparaging, relating or encouraging money laundering or gambling, or otherwise unlawful in any manner whatever;</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) harm minors in any way;</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(D) infringes any patent, trademark, copyright or other proprietary rights;</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(E) violates any law for the time being in force;</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(F) deceives or misleads the addressee about the origin of such messages or communicates any information which is grossly offensive or menacing in nature;</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(G) impersonate another person;</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(H) contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer resource;</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(F) threatens the unity, integrity, defence, security or sovereignty of India, friendly relations with foreign states, or public order or causes incitement to the commission of any cognizable offence or prevents investigation of any offence or is insulting any other nation.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">Any and all complaints to the Grievance Officer shall be in writing and in the event of any complaint through email, the said complaint shall be digitally signed. For Grievance Officer related information please see clause 12 of this terms and conditions.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">While using EM service, in case of conflict between the terms and condition of Website, and terms and conditions of any other website including consortium of portal of MCL, then the terms and condition of EM Website shall prevail for the EM service. However, for services rendered to EM member by MCL consortium of portals, you agree that in case of conflict between the terms and condition of this Website, and terms and conditions of any other MCL consortium of portal of MCL, then the terms and condition of MCL consortium of portals shall prevail.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">20. Disclaimer</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) Your use of the EM Services or any content provided to you by EM is at your own risk. YOU UNDERSTAND AND AGREE THAT THE EM SERVICES ARE PROVIDED TO YOU ON AN "AS IS" AND "AS AVAILABLE" BASIS. WITHOUT LIMITING THE FOREGOING, TO THE FULL EXTENT PERMITTED BY LAW, EM DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. EM does not warrant that the Website, its servers, or e-mail sent from EM are free of viruses or other harmful components. EM will not be liable for any damages of any kind arising from the use of this EM Website, including, but not limited to direct, indirect, incidental, punitive, and consequential damages.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) EM does not give any implied or explicit guarantee or warranty of marriage or alliance by you choosing to use EM services.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) Notwithstanding anything contrary contained anywhere, under no circumstances, EM shall be held responsible or liable whatsoever or howsoever, arising out of, relating to or connected with:
+                                            <ul>
+                                                <li>any act or omission not done by EM/MCL/ payment gateway/alliance partner/banks etc.;</li>
+                                                <li>any untrue or incorrect information submitted by you or on your behalf;</li>
+                                                <li>any decision taken by you or on your behalf or any consequences thereof, based on any information provided by any other user (including suspension/deletion of the profile from EM);</li>
+                                                <li>any unauthorized or illegal act done by any third party relating to or connected with any information submitted by you or on your behalf;</li>
+                                                <li>any cybercrime attempted or committed by anyone, and</li>
+                                                <li>any incident of force-majeure or 'act of god'.</li>
+                                                <li>Any issue already stated in these terms and conditions including limitation of liability clause of these terms and conditions.</li>
+                                                <li>You also understand and agree that EM is not counterchecking or authenticating the veracity of the data provided by any EM member while registering for EM services. EM Members are expected to counter check the veracity of the details of the prospects while shortlisting the prospect and satisfy themselves before making a choice of your match through adequate efforts, initiatives and due diligence. EM do not claim the authenticity or ownership of the home or office address scheduled for an appointment as being the member's actual or legal place of residence or employment respectively. EM will not be liable for any damages of any kind arising from the use of this EM services/Website/MCL consortium of websites, including, but not limited to direct, indirect, incidental, punitive, and consequential damages.</li>
+                                                <li>Using/availing of third party services namely horoscope matching services etc. and for paying for such third party services through EM.</li>
+                                                <li>EM shall not be liable for the outcome of during any interaction in a meeting, call, sms, chat, email or social media posts at any point of time.</li>
+                                                <li>Any issues relating to any technical malfunction of any telecommunication network, software, hardware failures, network congestion, denial of service, failure due to spamming or any combination of the above.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(D) You expressly agree that your use of this Website/EM services is at your sole risk.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">21. Indemnity</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">Before the expiry of the Tenure of the EM By using our EM services you agree to defend, indemnify, and hold harmless EM, its subsidiaries, affiliates, Directors, officers, agents, and other partners and employees, fully indemnified and harmless from any loss, damage, liability, claim, or demand, including reasonable attorney's fees, made by any person through improper use of the service provided by EM. This defense and indemnification obligation will survive in perpetuity.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">22. Breach</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) You agree that if we receive feedback/ complaints against your profile in relation to the facts that you are seeking physical / financial favors from our other registered members or have provided incorrect information on our website or committed any unlawful/illegal activities through the use of our website or created a profile on our website by impersonation/ fake/ bogus/ false/ misrepresentation/ without consent of the person who's profile is being registered, then we in good faith reserve our right to suspend/delete the profile at our sole discretion without any notice to you.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) EM reserves the right to forthwith terminate your membership, block/delete your profile and forfeit entire amount paid as membership fee; if at any time EM, in its sole discretion, is of the opinion or has any reason to believe that, you have violated these Terms and conditions. We also reserve our right to file appropriate police complaint against you, if the breach of these terms and conditions is/are criminal in nature.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">23. Termination</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) The EM membership may be terminated by EM/you without assigning any reasons by serving 7 days written notice on the other, all amount paid till date by you shall be forfeited.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) Upon termination / suspension of EM membership, your right to use or access the EM website / EM service will cease immediately. All provisions of this terms and conditions that by their nature should survive termination shall survive termination, including, without limitation, disclaimers, and limitations of liability. Termination of your access to and use of the EM Services shall not relieve you of any obligations arising or accruing prior to such termination.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 xs-mt10">
+                                <div class="col-md-12 col-12 pt-3 terms-text-title">24. Jurisdiction and Applicable Law</div>
+                                <div class="col-md-12 col-12 text-left">
+                                    <div class="col-md-12 col-12">
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(A) The registration of EM membership and all EM services are deemed to have been entered into within the territorial Jurisdiction of Chennai, India.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(B) The EM Members unconditionally agree that all such disputes and / or differences if any shall be governed by the Laws of India and submitting to the exclusive Jurisdiction of appropriate court of law in Chennai, Tamil Nadu, India.</div>
+                                        <div class="mt-2 xs-small-text1 xs-mt10 list-roman">(C) You hereby, unconditionally and irrevocably confirm that you have read terms and conditions and agree to abide by them.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>    <!--END Modal => I agree to the Terms and Conditions Popup -->
+    <footer class="container-fluid" id="footerID">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                <div class="footer-logo"><a href="../index.html"> <img src="assets/images/footer_logo.svg" alt="footer logo"></a></div>
+                </div>
+                <div class="col-8">
+                    <h6 class="footer-text">Copyright@ 2024 All right reserved</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="../../code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/jquery.redirect.js"></script>
+ 	<script src="assets/js/slick.min.js"></script>	
+    <script type="text/javascript">
+
+        // START Gamooga 
+        var _ss_track = {
+            "id": "889aa182-cddb-4317-a731-e147619f0418",
+            "events": [],
+            "handlers": [],
+            "alarms": [],
+            "options": {}
+        };
+        (function() {
+            var ss = document.createElement('script');
+            ss.type = 'text/javascript';
+            ss.async = true;
+            ss.id = "__ss";
+            ss.src = '../../cdn-jp.gsecondscreen.com/static/ssclient.min.js';
+            var fs = document.getElementsByTagName('script')[0];
+            fs.parentNode.insertBefore(ss, fs);
+        })();
+
+        function triggergamooga(arg) {
+            if (arg == 1) {
+                _ss_track.handlers.push(['connect', function() {
+                    _ss_track.api.live_chat_click();
+                }]);
+            }
+        }
+        // END Gamooga 
+        // ******************************************************************************************************************
+        function GetCardType(number) {
+            var re = new RegExp("^4");
+            if (number.match(re) != null)
+                return "Visa";
+
+            re = new RegExp("^(508[5-9][0-9]{12})|(6069[8-9][0-9]{11})|(607[0-8][0-9]{12})|(6079[0-8][0-9]{11})|(608[0-5][0-9]{12})|(6521[5-9][0-9]{11})|(652[2-9][0-9]{12})|(6530[0-9]{12})|(6531[0-4][0-9]{11})");
+            if (number.match(re) != null)
+                return "Rupaycard";
+
+            re = new RegExp("^(34|37)");
+            if (number.match(re) != null)
+                return "American Express";
+
+            re = new RegExp("^5[1-5]|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720[0-9]");
+            if (number.match(re) != null)
+                return "Mastercard";
+
+            re = new RegExp("^(5018|5020|5038|5044|5046|5047|5048|5049|5081|6002|6038|6220|6304|6759|6761|6762|6763)");
+            if (number.match(re) != null)
+                return "Maestrocard";
+
+            return 0;
+        }  
+
+        function SetTypeText(cardNumber) {
+            var cardType = GetCardType(cardNumber);
+            var CVVmaxLengthVal = (cardType == "American Express")?4:3;
+            $("#CvvID").attr('maxlength',CVVmaxLengthVal);
+        }
+        
+        $(document).ready(function() {
+            $("#cardExpiryMonthID").selectedIndex = -1;
+            $("#cardExpiryYearID").selectedIndex = -1;
+            var gstExclusive = '1';
+            var ipCountryCode = '98';
+            var UPIVisible = '0';
+            if(gstExclusive == 1 && ipCountryCode == 98)
+            {
+                var gstAmount = 'Rs. 81,000 /-';
+                $("#gstLabelDIV, #gstAmountDIV").show();
+                $("#gstAMT").text(gstAmount);
+            }
+
+            if(UPIVisible == 1)
+            {
+                $("#mobPaymentOptionSliderUPI, #list-upi-pay-list").show();
+                $("#list-neft-bank-list").css({"border-bottom-right-radius":"0px", "border-bottom-left-radius":"0px"});
+            }       
+            else
+            {
+                $("#mobPaymentOptionSliderUPI, #list-upi-pay-list").hide();
+            }
+
+            var appType = '300';
+            $('#mobPaymentOptionSliderVisibleID').val(0);
+
+            if (appType == 300) {
+                $(".hideMobileInitialLoadingClass").show();
+            } else {
+                $('#footerID').addClass('footer-mobile');
+            }
+            // ******************************************************************************************************************
+            $("#proceedBtnID").click(function() {
+                var sub2_em_id = $("#sub2_em_id").val();
+                var sub2_name = $("#sub2_name").val();
+                var sub2_tc = $('input#sub2_tc').is(':checked'); //terms and conditions
+                var specialDigitPattern = /[~`!@#\$%\^&\*()\-_\+=|\\{}\[\]:;"'<>,\?\/\.0123456789]/;
+
+                // Initially remove all error validation
+                $("#sub2_em_id").removeClass('error-cls');
+                $("#sub2_name").removeClass('error-cls');
+                $("#emID-lableid").text("EM ID");
+                $("#name-Labelid").text("Name");
+
+                if (sub2_em_id == "" || sub2_em_id == null) {
+                    $("#sub2_em_id").focus();
+                    $('#sub2_em_id').addClass('error-cls');
+                    $('#sub2_em_id').removeAttr('placeholder');
+                    $("#emID2-lableid").text("Enter your EM ID");
+                    return false;
+                } else if ((sub2_em_id.length < 7) || (sub2_em_id.length > 8)) {
+                    $("#sub2_em_id").focus();
+                    $('#sub2_em_id').addClass('error-cls');
+                    $('#sub2_em_id').removeAttr('placeholder');
+                    $("#emID2-lableid").text("Check your EM ID");
+                    return false;
+                } else if (!(sub2_em_id.charAt(0) == 'E' && sub2_em_id.charAt(1) == 'M')) {
+                    $("#sub2_em_id").focus();
+                    $('#sub2_em_id').addClass('error-cls');
+                    $('#sub2_em_id').removeAttr('placeholder');
+                    $("#emID2-lableid").text("Enter Correct EM ID ");
+                    return false;
+                } else if (sub2_name == "" || sub2_name == null) {
+                    $("#sub2_name").focus();
+                    $('#sub2_name').addClass('error-cls');
+                    $('#sub2_name').removeAttr('placeholder');
+                    $("#name-Labelid").text("Enter your name");
+                    return false;
+                } else if (sub2_name.length < 3) {
+                    $("#sub2_name").focus();
+                    $('#sub2_name').addClass('error-cls');
+                    $('#sub2_name').removeAttr('placeholder');
+                    $("#name-Labelid").text("minimum of 3 character");
+                    return false;
+                } else if (specialDigitPattern.test(sub2_name)) {
+                    $("#sub2_name").focus();
+                    $('#sub2_name').addClass('error-cls');
+                    $('#sub2_name').removeAttr('placeholder');
+                    $("#name-Labelid").text("Enter valid name");
+                    return;
+                } else if (sub2_tc == false) {
+                    $("#sub2_tc").focus(); //not working
+                    $("#SUB2Err").text("Accept the terms and conditions");
+                    return false;
+                } else {
+                    $("#SUB2Err").text("");
+                    $('#mobPaymentOptionSliderVisibleID').val(1);
+                    $("#subscribeHeadingID").hide();
+                    $("#SUBSCRIBE2DIV").hide();
+                    $(".hideMobileInitialLoadingClass").show();
+                    $('#footerID').removeClass('footer-mobile');
+                    $("#mobPaymentOptionSliderID").show();
+                    var ipCountryCode = '98';
+                    if (ipCountryCode != 98)
+                        $('#mobPaymentOptionSliderCRID').addClass('ml-14');
+                }
+            });
+            // ******************************************************************************************************************
+            // START PAYMENT FORM SUBMIT 
+            $("#securePaymentSubmitID").on('click blur' ,function() {
+                var sub1_em_id = $("#sub1_em_id").val();
+
+                if (sub1_em_id == "" || sub1_em_id == null) {
+                    $("#sub1_em_id").focus();
+                    $('#sub1_em_id').addClass('error-cls');
+                    $('#sub1_em_id').removeAttr('placeholder');
+                    $("#emID-lableid").text("Enter your EM ID");
+                    return;
+                } else if ((sub1_em_id.length < 7) || (sub1_em_id.length > 8)) {
+                    $("#sub1_em_id").focus();
+                    $('#sub1_em_id').addClass('error-cls');
+                    $('#sub1_em_id').removeAttr('placeholder');
+                    $("#emID-lableid").text("Check your EM ID");
+                    return;
+                } else if (!(sub1_em_id.charAt(0) == 'E' && sub1_em_id.charAt(1) == 'M')) {
+                    $("#sub1_em_id").focus();
+                    $('#sub1_em_id').addClass('error-cls');
+                    $('#sub1_em_id').removeAttr('placeholder');
+                    $("#emID-lableid").text("Enter Correct EM ID");
+                    return;
+                } else {
+                    $("#sub1_em_id").removeClass('error-cls');
+                    $("#emID-lableid").text("EM ID");
+                }
+                var checksub2visible = $('#sub2_em_id').is(":visible");
+                console.log("checksub2visible " + checksub2visible);
+                var mobPaymentOptionSliderVisibleID = $('#mobPaymentOptionSliderVisibleID').val(); // after submit sub2; it turns 1
+                if (checksub2visible == false && mobPaymentOptionSliderVisibleID == 0) {
+                    $("#SUBSCRIBE1SUBMITID").focus();
+                    return;
+                } else {
+                    var sub2_em_id = $("#sub2_em_id").val();
+                    var sub2_name = $("#sub2_name").val();
+                    var sub2_tc = $('input#sub2_tc').is(':checked'); //terms and conditions
+                    var specialDigitPattern = /[~`!@#\$%\^&\*()\-_\+=|\\{}\[\]:;"'<>,\?\/\.0123456789]/;
+                    // Initially remove all error validation
+                    $("#sub2_em_id").removeClass('error-cls');
+                    $("#sub2_name").removeClass('error-cls');
+                    $("#emID-lableid").text("EM ID");
+                    $("#name-Labelid").text("Name");
+
+                    if (sub2_em_id == "" || sub2_em_id == null) {
+                        $("#sub2_em_id").focus();
+                        $('#sub2_em_id').addClass('error-cls');
+                        $('#sub2_em_id').removeAttr('placeholder');
+                        $("#emID2-lableid").text("Enter your EM ID");
+                        return false;
+                    } else if ((sub2_em_id.length < 7) || (sub2_em_id.length > 8)) {
+                        $("#sub2_em_id").focus();
+                        $('#sub2_em_id').addClass('error-cls');
+                        $('#sub2_em_id').removeAttr('placeholder');
+                        $("#emID2-lableid").text("Check your EM ID");
+                        return false;
+                    } else if (!(sub2_em_id.charAt(0) == 'E' && sub2_em_id.charAt(1) == 'M')) {
+                        $("#sub2_em_id").focus();
+                        $('#sub2_em_id').addClass('error-cls');
+                        $('#sub2_em_id').removeAttr('placeholder');
+                        $("#emID2-lableid").text("Enter Correct EM ID ");
+                        return false;
+                    } else if (sub2_name == "" || sub2_name == null) {
+                        $("#sub2_name").focus();
+                        $('#sub2_name').addClass('error-cls');
+                        $('#sub2_name').removeAttr('placeholder');
+                        $("#name-Labelid").text("Enter your name");
+                        return false;
+                    } else if (sub2_name.length < 3) {
+                        $("#sub2_name").focus();
+                        $('#sub2_name').addClass('error-cls');
+                        $('#sub2_name').removeAttr('placeholder');
+                        $("#name-Labelid").text("minimum of 3 character");
+                        return false;
+                    } else if (specialDigitPattern.test(sub2_name)) {
+                        $("#sub2_name").focus();
+                        $('#sub2_name').addClass('error-cls');
+                        $('#sub2_name').removeAttr('placeholder');
+                        $("#name-Labelid").text("Enter valid name");
+                        return;
+                    } else if (sub2_tc == false) {
+                        $("#sub2_tc").focus(); //not working
+                        $("#SUB2Err").text("Accept the terms and conditions");
+                        return false;
+                    } else {
+                        $("#SUB2Err").text(" ");
+                    }
+                }
+
+                var activeTab = $("#activePaymentOptionID").val();
+                var apiEmMatriid = $("#apiEmMatriid").val();
+                var sub2_em_id = $("#sub2_em_id").val();
+                var sub2_name = $("#sub2_name").val();
+                var eliteMemberAddress = $("#eliteMemberAddress").val();
+                var eliteMemberMailid = $("#eliteMemberMailid").val();
+                var eliteMemberPhoneNo = $("#eliteMemberPhoneNo").val();
+                var discountPromoCheck = $("#discountPromoCheck").val();
+                var actualAmount = $("#chargeTotalAmountID").val();
+                var GSTExclusive = $("#GSTExclusive").val();
+
+                var referenceId = apiEmMatriid + "-20240823232744";
+                var orderdesc = " Ultimate 12 Months";
+                var currency = 'Rs.';
+                var requestPkgId = '283';
+                var countryCode = '98';
+
+                if (countryCode == 98) {
+                    var PaymentOptionsObj = {
+                        "matriId": apiEmMatriid,
+                        "actualAmount": actualAmount,
+                        "category2": requestPkgId,
+                        "shoppingContext": referenceId,
+                        "orderdesc": orderdesc,
+                        "countryCode": countryCode,
+                        "GSTExclusive": GSTExclusive
+                    };
+                } else {
+                    var validdays = $("#packageValiddaysID").val();
+                    var PaymentOptionsObj = {
+                        "ID": apiEmMatriid,
+                        "CATEGORY": requestPkgId,
+                        "elitecategory": requestPkgId,
+                        "originalAmount": actualAmount,
+                        "usamont": actualAmount,
+                        "validdays": validdays,
+                        "CN": countryCode,
+                    };
+                }
+                // Below values are COMMON for both RI/NRI FORM SUBMIT
+                PaymentOptionsObj["userEliteId"] = sub2_em_id;
+                PaymentOptionsObj["eliteemailId"] = eliteMemberMailid;
+                PaymentOptionsObj["elitemobilnumber"] = eliteMemberPhoneNo;
+                PaymentOptionsObj["eliteName"] = sub2_name;
+                PaymentOptionsObj["eliteaddr"] = eliteMemberAddress;
+                PaymentOptionsObj["elitecountrycode"] = countryCode;
+                PaymentOptionsObj["currency"] = currency;
+                PaymentOptionsObj["discountPromoCheck"] = discountPromoCheck;
+                PaymentOptionsObj["APPTYPE"] = appType;
+
+                console.log("securePaymentSubmit starts. country==> " + countryCode + ". activeTab is==>" + activeTab);
+                // CHECKING CREDIT-DEBIT CARD PAYMENT OPTION ========================================
+                if (activeTab == "credit-debit") {
+                    var cardHolderName = $("#sub2_name").val();
+                    var cardNumberID = $("#cardNumberID").val().replace(/\s/g, "");
+                    var cardExpiryMonthID = $("#cardExpiryMonthID").val();
+                    var cardExpiryYearID = $("#cardExpiryYearID").val();
+                    var CvvID = $("#CvvID").val();
+
+                    // START Initially reset all validation errors
+                    $("#cardNumberID").removeClass('error-cls');
+                    $("#cardExpiryMonthID").removeClass('error-cls');
+                    $("#cardExpiryYearID").removeClass('error-cls');
+                    $("#CvvID").removeClass('error-cls');
+                    $("#card-number-lableid").text("Card Number");
+                    $("#month-Label-Id").text("Expiry Month");
+                    $("#year-label-id").text("Expiry Year");
+                    $("#cvv-label-id").text("CVV");
+                    // END Initially reset all validation errors
+                    var cardNumberLength = cardNumberID.length;
+                    n1= cardNumberID.substring(0,1);	
+                    n2= cardNumberID.substring(0,2);
+                    console.log("cardNumberLength==>"+cardNumberLength+";n1==>"+n1+";n2==>"+n2);
+
+                    // cardNumber Validation
+                    var cardNumberIDValidation,CvvIDValidation;
+                    if (cardNumberID == '')
+                        cardNumberIDValidation = "Enter your card number";
+                    else if(cardNumberLength > 16 || cardNumberLength < 13)
+                        cardNumberIDValidation = "Card Number must contain 13 to 16 digits";
+                    else if(((n2==34)||(n2==37)) && cardNumberLength < 15)
+                        cardNumberIDValidation = "Card Number must contain 15 digits";
+                    else if(n2==35 && cardNumberLength < 16)
+                        cardNumberIDValidation = "Card Number must contain 16 digits";
+                    else if(n1==3 && cardNumberLength < 14)
+                        cardNumberIDValidation = "Card Number must contain 14 digits";
+                    else if((n1==4 || n1==5) && cardNumberLength < 16)
+                        cardNumberIDValidation = "Card Number must contain 16 digits";
+                    else
+                        cardNumberIDValidation = "";
+
+                    // CVV Validation
+                    var cardType = GetCardType(cardNumberID);
+                    var CVVmaxLengthVal = (cardType == "American Express")?4:3;
+                    var CvvIDLength = CvvID.length;
+                    
+                    if(CvvID == "")
+                        CvvIDValidation = "Enter your CVV number";
+                    else if(CVVmaxLengthVal!=CvvIDLength)
+                        CvvIDValidation = "Invalid CVV number";
+                    else
+                        CvvIDValidation = "";
+
+                    if (cardNumberIDValidation != '') {
+                        CRDRErr = cardNumberIDValidation;
+                        $("#cardNumberID").focus();
+                        $('#cardNumberID').addClass('error-cls');
+                        $('#cardNumberID').removeAttr('placeholder');
+                        $("#card-number-lableid").text(CRDRErr);
+                    }  else if (cardExpiryMonthID == null || cardExpiryMonthID.trim() == '') {
+                        CRDRErr = "Select valid month";
+                        $("#cardExpiryMonthID").focus();
+                        $('#cardExpiryMonthID').addClass('error-cls');
+                        $('#cardExpiryMonthID').removeAttr('placeholder');
+                        $("#month-Label-Id").text(CRDRErr);
+                    }else if (cardExpiryYearID == null || cardExpiryYearID.trim() == '') {
+                        CRDRErr = "Select valid year";
+                        $("#cardExpiryYearID").focus();
+                        $('#cardExpiryYearID').addClass('error-cls');
+                        $('#cardExpiryYearID').removeAttr('placeholder');
+                        $("#year-label-id").text(CRDRErr);
+                    } else if (CvvIDValidation != '') {
+                        CRDRErr = CvvIDValidation;
+                        $("#CvvID").focus();
+                        $('#CvvID').addClass('error-cls2');
+                        $('#cvv-span-id').addClass('boder-input');
+                        $('#CvvID').removeAttr('placeholder');
+                        $("#cvv-label-id").text(CRDRErr);
+                        return;
+                    } else {
+                        PaymentOptionsObj['paymentOption'] = 1;
+                        var formSubmitPage;
+                        if (countryCode == 98) {
+                            PaymentOptionsObj['cardHolderName'] = cardHolderName;
+                            PaymentOptionsObj['vpc_CardNum'] = cardNumberID;
+                            PaymentOptionsObj['cardExpiryMonth'] = cardExpiryMonthID;
+                            PaymentOptionsObj['cardExpiryYear'] = cardExpiryYearID;
+                            PaymentOptionsObj['vpc_CardSecurityCode'] = CvvID;
+                            formSubmitPage = 'razorpayment.php';
+                        } else {
+                            PaymentOptionsObj['CREDITCARDNAME'] = cardHolderName;
+                            PaymentOptionsObj['CREDITCARDNUMBER'] = cardNumberID;
+                            PaymentOptionsObj['EXPMON'] = cardExpiryMonthID;
+                            PaymentOptionsObj['EXPYEAR'] = cardExpiryYearID;
+                            PaymentOptionsObj['CREDITCARDCVV'] = CvvID;
+                            formSubmitPage = 'eliteupgradation.php';
+                        }
+                        console.log("PaymentOptionsObj are " + PaymentOptionsObj);
+                        $(this).prop('disabled', true); // disable button
+                        $.redirect(formSubmitPage, PaymentOptionsObj, "POST", null, null, true);
+                    }
+                    // CHECKING NET BANKING PAYMENT OPTION ========================================
+                } else if (activeTab == "net-bank") {
+                    var bank_value = $("#netBankingOtherBanksID").val();
+                    if (bank_value == '') {
+                        NETErr = "Please choose any bank";
+                        $('#netBankingOtherBanksID').addClass('error-cls');
+                        $("#NETErr").text(NETErr);
+                    } else {
+                        $('#netBankingOtherBanksID').removeClass('error-cls');
+                        $("#NETErr").text("Select from other Bank");
+                        PaymentOptionsObj['netBankingCardslist'] = bank_value;
+                        PaymentOptionsObj['netBankingCards'] = ""; //need to ask vetri
+                        PaymentOptionsObj['cardOption'] = "netBanking";
+                        PaymentOptionsObj['paymentOption'] = 2;
+                        console.log("PaymentOptionsObj are " + PaymentOptionsObj);
+                        $(this).prop('disabled', true); // disable button
+                        $.redirect('razorpayment.php', PaymentOptionsObj, "POST", null, null, true);
+                    }
+					 // CHECKING UPI PAYMENT OPTION ========================================
+                } else if (activeTab == "upi") {
+                    var upivalue = $("#upiID").val();
+                    var result = /^[\w.-]+@[\w.-]+$/.test(upivalue);
+                    // UPI VALIDATION STARTS
+                    if (upivalue == '') {
+                        UPIErr = "Please enter your Virtual Payment Address";
+                        $("#upiID").focus();
+                        $('#upiID').addClass('error-cls');
+                        $('#upiID').removeAttr('placeholder');
+                        $("#UPIErr").text(UPIErr);
+                    } else if (result == false) {
+                        UPIErr = "Please enter valid Virtual Payment Address";
+                        $("#upiID").focus();
+                        $('#upiID').addClass('error-cls');
+                        $('#upiID').removeAttr('placeholder');
+                        $("#UPIErr").text(UPIErr);
+                    } else {
+                        // UPI VALIDATION END
+                        $('#upiID').removeClass('error-cls');
+                        $("#UPIErr").text("Enter Your Virtual Payment Address (VPA)");
+                        PaymentOptionsObj['paymentOption'] = 3;
+                        PaymentOptionsObj['upipay'] = upivalue;
+                        console.log("PaymentOptionsObj are " + PaymentOptionsObj);
+                        $(this).prop('disabled', true); // disable button
+                        $.redirect('razorpaymentupi.php', PaymentOptionsObj, "POST", null, null, true);
+                    }
+                } else {
+                    // neft-rtgs
+                    alert("Please choose valid payment options");
+                }
+            });
+            // END PAYMENT FORM SUBMIT 
+            // ******************************************************************************************************************
+            // WHILE CLICK KEYBOARD ENTER KEY WE TRIGGER BUTTON CLICK FUNCTION
+            $('#sub1_em_id, #upiID').keypress(function(data) {
+                if (data.keyCode == 13)
+                {
+                    var getId = $(this).attr("id");
+                    if(getId == "upiID")
+                        $("#securePaymentSubmitID").click();
+                    else
+                        $("#SUBSCRIBE1SUBMITID").click();
+                }
+            });
+            //WHEN USER CHECK OFFER BY GIVE ELITEID THIS FUNCTION TRIGGERS
+            $("#SUBSCRIBE1SUBMITID").click(function() {
+                var sub1_em_id = $("#sub1_em_id").val();
+
+                if (sub1_em_id == "" || sub1_em_id == null) {
+                    $("#sub1_em_id").focus();
+                    $('#sub1_em_id').addClass('error-cls');
+                    $('#sub1_em_id').removeAttr('placeholder');
+                    $("#emID-lableid").text("Enter your EM ID");
+                    return;
+                } else if ((sub1_em_id.length < 7) || (sub1_em_id.length > 8)) {
+                    $("#sub1_em_id").focus();
+                    $('#sub1_em_id').addClass('error-cls');
+                    $('#sub1_em_id').removeAttr('placeholder');
+                    $("#emID-lableid").text("Check your EM ID");
+                    return;
+                } else if (!(sub1_em_id.charAt(0) == 'E' && sub1_em_id.charAt(1) == 'M')) {
+                    $("#sub1_em_id").focus();
+                    $('#sub1_em_id').addClass('error-cls');
+                    $('#sub1_em_id').removeAttr('placeholder');
+                    $("#emID-lableid").text("Enter Correct EM ID ");
+                    return;
+                } else {
+                    $("#sub1_em_id").removeClass('error-cls');
+                    $("#emID-lableid").text("EM ID");
+                }
+
+                var currency = 'Rs.';
+                var pkgId = '283';
+                var countryCode = '98';
+                console.log(sub1_em_id);
+                $.ajax({
+                    type: "POST",
+                    url: "getelitepackdet.php",
+                    data: {
+                        "pkgId": pkgId,
+                        "eliteId": sub1_em_id,
+                        "countryCode": countryCode
+                    },
+                    success: function(result) {
+                        console.log("result==>");
+                        console.log(result);
+                        if (result.ERROR == 0) {
+                            $("#SUBSCRIBE1DIV").hide();
+                            $("#SUBSCRIBE2DIV").show();
+                            $("#sub2_em_id").val(result.USERDETAILS.MATRIID);
+                            $("#sub2_name").val(result.USERDETAILS.NAME);
+                            $("#eliteMemberAddress").val(result.USERDETAILS.ADDRESS);
+                            $("#apiEmMatriid").val(result.USERDETAILS.EMMATRIID); // EMMATRIID
+                            $("#sub2_promocode").val(result.PACKDETAILS.PROMOCODE);
+                            $("#packageValiddaysID").val(result.PACKDETAILS.VALIDDDAYS);
+                            $("#packageAmountID").text(result.PACKDETAILS.ORIGINALAMOUNT);
+                            $(".chargeTotalAmountClass").text(result.PACKDETAILS.AMOUNT);
+                            $("#chargeTotalAmountID").val(result.PACKDETAILS.AMOUNT);
+                            // START For form submit    
+                            $('#eliteMemberMailid').val(result.USERDETAILS.FULLEMAILIDSTR);
+                            $('#eliteMemberPhoneNo').val(result.USERDETAILS.FULLPHONENUMBER);
+                            $('#GSTExclusive').val(result.GSTEXCLUSIVE);
+                            $('#discountPromoCheck').val(0);
+                            $("#successFeeDisplayAmountID").text(result.SUCEESSPAYON);
+
+                            if(result.UPIVISIBLE == 1)
+                            {
+                                $("#mobPaymentOptionSliderUPI, #list-upi-pay-list").show();
+                                $("#list-neft-bank-list").css({"border-bottom-right-radius":"0px", "border-bottom-left-radius":"0px"});
+                            }
+                            else
+                            {
+                                $("#list-neft-bank-list").css({"border-bottom-right-radius":"8px", "border-bottom-left-radius":"8px"});
+                            }
+
+                            var appType = '300';
+                            if (appType == 300) {
+                                $(".discountPromoCodeDivClass").css("width", "215px");
+                            }
+                            // END For form submit
+                            if (result.PACKDETAILS.DISCOUNTAMOUNT != '' && result.PACKDETAILS.DISCOUNTAMOUNT != 0) {
+                                $('#discountPromoCheck').val(1);
+                                $("#discountLabelDIV, #discountAmountDIV, #discountPromoCodeDivID, #totalLabelDIV, #totalAmountDIV").show();
+
+                                $("#discountAMT").text(result.PACKDETAILS.DISCOUNTAMOUNT);
+                                if(countryCode == 98)
+                                    $("#totalAMT").text(result.PACKDETAILS.WITHOUTGST);
+                                else
+                                    $("#totalAMT").text(result.PACKDETAILS.AMOUNT);
+                            }
+                            else
+                            {
+                                if (appType == 115)
+                                $(".discountPromoCodeDivClass").hide();
+                            }
+
+                            if (result.GSTEXCLUSIVE == 1) {
+                                $("#gstLabelDIV, #gstAmountDIV").show();
+                                $("#gstAMT").text(result.PACKDETAILS.GSTAMOUNT);
+                            }
+                        } else {
+                            $("#sub1_em_id").focus();
+                            $('#sub1_em_id').addClass('error-cls');
+                            $('#sub1_em_id').removeAttr('placeholder');
+                            $("#emID-lableid").text("Invalid EM ID ");
+                        }
+                    }
+                });
+            });
+
+            $("#SUBSCRIBE1DIV, #SUBSCRIBE2DIV, #upiFormID").submit(function(e){
+			    return false;
+			});
+			
+			$( "#mobPaymentOptionSliderNEFTRTGS" ).click(function(){
+				 $('#mobPaymentOptionSliderID .slick-track').css("transform","translate3d(-133px, 0px, 0px)");	
+				 
+			});
+			$( "#mobPaymentOptionSliderNETBANK" ).click(function(){
+				 $('#mobPaymentOptionSliderID .slick-track').css("transform","translate3d(0px, 0px, 0px)");		 
+			});
+			
+
+            // ******************************************************************************************************************
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+      $('.swiper-wrapper').slick({
+        dots: false,
+        infinite: false,
+        speed: 500,
+        arrows:false,
+        slidesToShow: 3,
+        // centerMode: true,
+        // variableWidth: true,
+        slidesToScroll: 3,
+        accessibility: true,
+        mobileFirst:true,
+        // useCSS: false,
+        variableWidth: true,
+      });
+
+    });    
+    function checkCvv(cardnumber) {
+        if(cardnumber ==''){
+            return false;
+        }
+        
+        document.getElementById('hidden_cardCvvLength').value=0;
+        document.CreditDebitForm.CvvID.setAttribute('maxLength', 3);
+        cardnumber = cardnumber.split(" ").join("");
+        cardnumber = cardnumber.split("-").join("");			
+        
+        var cards = new Array();
+
+        cards [0] = {name: "American Express", 
+                length: "15", 
+                prefixes: "34,37",
+                NUM: 1,
+                cardType:"PAMXV_Y"
+                };
+        cards [1] = {name: "Diners Club Carte Blanche", 
+                length: "14", 
+                prefixes: "300,301,302,303,304,305",
+                NUM: 2,
+                cardType:"CBDCLB_Y"
+                };
+                
+        cards [2] = {name: "Diners Club", 
+                length: "14,16", 
+                prefixes: "305,36,38,54,55",
+                NUM: 3,
+                cardType:"CBDCLB_Y"
+                };
+        cards [3] = {name: "Diners Club Enroute", 
+                length: "15", 
+                prefixes: "2014,2149",
+                NUM: 4,
+                cardType:"CBDCLB_Y"
+                };
+        cards [4] = {name: "JCB", 
+                length: "16", 
+                prefixes: "35",
+                NUM: 5,
+                cardType:"PJCB_Y"
+                };
+                
+
+        for (var i=0;i<cards.length;i++) {
+                
+                var prefix = cards[i]['prefixes'].split(',');
+                
+                var cLength = cards[i]['length'].split(',');
+            
+                for(var j=0;j<prefix.length;j++){
+
+                        if(cardnumber.substring(0,prefix[j].length) == prefix[j])
+                        {
+                            console.log(cardnumber.substring(0,prefix[j].length) );
+                            for(var k=0;k<cLength.length;k++)
+                            {
+                                if(cLength[k] == cardnumber.length){
+                                
+                                    document.getElementById('hidden_cardType').value=cards[i]['cardType'];
+                                    
+                                    if(cards[i]['NUM']==1 || cards[i]['NUM']==5)
+                                    {
+                                        document.getElementById('hidden_cardCvvLength').value=1;
+                                        document.CreditDebitForm.CvvID.setAttribute('maxLength', 4);
+                                        
+                                        
+                                    }
+                    
+                                }
+                            
+                            }
+                        }
+                }
+                
+        }
+        
+    }
+
+//From membersip form elite packages
+
+//WHEN USER CHECK OFFER BY GIVE ELITEID THIS FUNCTION TRIGGERS
+
+var sub1_em_id = '';
+if(sub1_em_id!=''){
+    $('#elitematriidenter').css('display','none');
+    var currency = 'Rs.';
+    var pkgId = '283';
+    var countryCode = '98';
+    console.log(sub1_em_id);
+    $.ajax({
+        type: "POST",
+        url: "getelitepackdet.php",
+        data: {
+            "pkgId": pkgId,
+            "eliteId": sub1_em_id,
+            "countryCode": countryCode
+        },
+        success: function(result) {
+            console.log("result==>");
+            console.log(result);
+            if (result.ERROR == 0) {
+                $("#SUBSCRIBE1DIV").hide();
+                $("#SUBSCRIBE2DIV").show();
+                $("#sub2_em_id").val(result.USERDETAILS.MATRIID);
+                $("#sub2_name").val(result.USERDETAILS.NAME);
+                $("#eliteMemberAddress").val(result.USERDETAILS.ADDRESS);
+                $("#apiEmMatriid").val(result.USERDETAILS.EMMATRIID); // EMMATRIID
+                $("#sub2_promocode").val(result.PACKDETAILS.PROMOCODE);
+                $("#packageValiddaysID").val(result.PACKDETAILS.VALIDDDAYS);
+                $("#packageAmountID").text(result.PACKDETAILS.ORIGINALAMOUNT);
+                $(".chargeTotalAmountClass").text(result.PACKDETAILS.AMOUNT);
+                $("#chargeTotalAmountID").val(result.PACKDETAILS.AMOUNT);
+                // START For form submit    
+                $('#eliteMemberMailid').val(result.USERDETAILS.FULLEMAILIDSTR);
+                $('#eliteMemberPhoneNo').val(result.USERDETAILS.FULLPHONENUMBER);
+                $('#GSTExclusive').val(result.GSTEXCLUSIVE);
+                $('#discountPromoCheck').val(0);
+                $("#successFeeDisplayAmountID").text(result.SUCEESSPAYON);
+
+                if(result.UPIVISIBLE == 1)
+                {
+                    $("#mobPaymentOptionSliderUPI, #list-upi-pay-list").show();
+                    $("#list-neft-bank-list").css({"border-bottom-right-radius":"0px", "border-bottom-left-radius":"0px"});
+                }
+                else
+                {
+                    $("#list-neft-bank-list").css({"border-bottom-right-radius":"8px", "border-bottom-left-radius":"8px"});
+                }
+
+                var appType = '300';
+                if (appType == 300) {
+                    $(".discountPromoCodeDivClass").css("width", "215px");
+                }
+                // END For form submit
+                if (result.PACKDETAILS.DISCOUNTAMOUNT != '' && result.PACKDETAILS.DISCOUNTAMOUNT != 0) {
+                    $('#discountPromoCheck').val(1);
+                    $("#discountLabelDIV, #discountAmountDIV, #discountPromoCodeDivID, #totalLabelDIV, #totalAmountDIV").show();
+
+                    $("#discountAMT").text(result.PACKDETAILS.DISCOUNTAMOUNT);
+                    if(countryCode == 98)
+                        $("#totalAMT").text(result.PACKDETAILS.WITHOUTGST);
+                    else
+                        $("#totalAMT").text(result.PACKDETAILS.AMOUNT);
+                }
+                else
+                {
+                    if (appType == 115)
+                    $(".discountPromoCodeDivClass").hide();
+                }
+
+                if (result.GSTEXCLUSIVE == 1) {
+                    $("#gstLabelDIV, #gstAmountDIV").show();
+                    $("#gstAMT").text(result.PACKDETAILS.GSTAMOUNT);
+                }
+            } else {
+                $("#sub1_em_id").focus();
+                $('#sub1_em_id').addClass('error-cls');
+                $('#sub1_em_id').removeAttr('placeholder');
+                $("#emID-lableid").text("Invalid EM ID ");
+            }
+        }
+    });
+}else{
+    $('#elitematriidenter').css('display','block');
+}
+    
+    </script>
+</body>
+
+
+<!-- Mirrored from www.elitematrimony.com/payments/paymentoptions.php?categoryType=283 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Aug 2024 17:58:14 GMT -->
+</html>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="10.46" viewBox="0 0 164 10.46">
+    <defs>
+        <clipPath id="gttmpsyjqa">
+            <path data-name="Rectangle 9067" transform="rotate(-45 1.696 .703)" style="fill:#c1721f" d="M0 0h1.987v1.987H0z"/>
+        </clipPath>
+        <clipPath id="4jx924j8ib">
+            <path data-name="Rectangle 9069" transform="rotate(-45 2.578 1.068)" style="fill:#c1721f" d="M0 0h3.021v3.021H0z"/>
+        </clipPath>
+        <clipPath id="3m421tqrgc">
+            <path data-name="Rectangle 9073" transform="rotate(-40.626 2.657 .984)" style="fill:#c1721f" d="M0 0h3.021v3.021H0z"/>
+        </clipPath>
+        <clipPath id="fjd7plqcad">
+            <path data-name="Rectangle 9075" transform="rotate(-44.986 1.695 .702)" style="fill:#c1721f" d="M0 0h1.986v1.986H0z"/>
+        </clipPath>
+        <clipPath id="0yka0dlyke">
+            <path data-name="Rectangle 9079" transform="rotate(-45 1.696 .703)" style="fill:#c1721f" d="M0 0h1.986v1.986H0z"/>
+        </clipPath>
+        <clipPath id="agas9wkatf">
+            <path data-name="Rectangle 9081" transform="rotate(-40.62 2.656 .983)" style="fill:#c1721f" d="M0 0h3.021v3.021H0z"/>
+        </clipPath>
+        <clipPath id="pi9y2d7jbg">
+            <path data-name="Path 37811" d="m0 0 6.863.533L7.4 7.4.533 6.863z" transform="rotate(-44.996 6.314 2.615)" style="fill:#c1721f"/>
+        </clipPath>
+        <clipPath id="d0lq194ahh">
+            <path data-name="Path 37809" d="m147.391 7.989 60.717-.727v-.381l-60.717-.727z" transform="translate(-147.391 -6.154)" style="fill:#c1721f"/>
+        </clipPath>
+        <clipPath id="qcolvjn2wi">
+            <path data-name="Path 37810" d="M0 6.881v.381l54.816.727V6.154z" transform="translate(0 -6.154)" style="fill:#c1721f"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 305" style="opacity:.6">
+        <g data-name="Group 26431">
+            <g data-name="Group 26430" transform="translate(85.333 3.825)" style="clip-path:url(#gttmpsyjqa)">
+                <path data-name="Rectangle 9066" style="fill:#c1721f" d="M0 0h2.809v2.81H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26433">
+            <g data-name="Group 26432" transform="translate(89.564 3.094)" style="clip-path:url(#4jx924j8ib)">
+                <path data-name="Rectangle 9068" style="fill:#c1721f" d="M0 0h4.272v4.272H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26435">
+            <g data-name="Group 26434" transform="translate(95.718 3.825)" style="clip-path:url(#gttmpsyjqa)">
+                <path data-name="Rectangle 9070" style="fill:#c1721f" d="M0 0h2.809v2.81H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26437">
+            <g data-name="Group 26436" transform="translate(100.416 3.1)" style="clip-path:url(#3m421tqrgc)">
+                <path data-name="Rectangle 9072" style="fill:#c1721f" d="M0 0h4.26v4.26H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26439">
+            <g data-name="Group 26438" transform="translate(70.477 3.825)" style="clip-path:url(#fjd7plqcad)">
+                <path data-name="Rectangle 9074" style="fill:#c1721f" d="M0 0h2.809v2.809H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26441">
+            <g data-name="Group 26440" transform="translate(64.323 3.094)" style="clip-path:url(#4jx924j8ib)">
+                <path data-name="Rectangle 9076" style="fill:#c1721f" d="M0 0h4.272v4.272H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26443">
+            <g data-name="Group 26442" transform="translate(59.631 3.825)" style="clip-path:url(#0yka0dlyke)">
+                <path data-name="Rectangle 9078" style="fill:#c1721f" d="M0 0h2.809v2.809H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26445">
+            <g data-name="Group 26444" transform="translate(53.483 3.1)" style="clip-path:url(#agas9wkatf)">
+                <path data-name="Rectangle 9080" style="fill:#c1721f" d="M0 0h4.26v4.26H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26447">
+            <g data-name="Group 26446" transform="translate(74.171)" style="clip-path:url(#pi9y2d7jbg)">
+                <path data-name="Rectangle 9082" transform="translate(0 .754)" style="fill:#c1721f" d="M0 0h10.46v8.952H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26449">
+            <g data-name="Group 26448" style="clip-path:url(#d0lq194ahh)" transform="translate(103.283 4.312)">
+                <path data-name="Rectangle 9084" style="fill:#c1721f" d="M0 0h60.717v1.835H0z"/>
+            </g>
+        </g>
+        <g data-name="Group 26451">
+            <g data-name="Group 26450" style="clip-path:url(#qcolvjn2wi)" transform="translate(0 4.312)">
+                <path data-name="Rectangle 9085" style="fill:#c1721f" d="M0 0h54.816v1.835H0z"/>
+            </g>
+        </g>
+    </g>
+</svg>

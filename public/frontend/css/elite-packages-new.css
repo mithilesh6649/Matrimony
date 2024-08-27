@@ -1,0 +1,163 @@
+@font-face {
+font-family: 'Lato';font-style: normal;font-weight: 400;font-display: swap;
+src: local('Lato'), local('Lato-Regular'), url(https://imgs.bengalimatrimony.com/bmstyles/font/lato-regularnew.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Lato';font-style: normal;font-weight: 700;font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://imgs.bengalimatrimony.com/bmstyles/font/lato-bold-ui.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://imgs.bengalimatrimony.com/bmstyles/font/lato-black-ui.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#packageDet .swiper-container {padding-left: inherit !important;}
+.service-standard-text {font-size: 30px;color: #000000;font-family: 'Poppins';font-weight: bold;}
+.service-standard-desc {font-size: 16px;color: #000000;font-family: 'Poppins';margin-top: 20px;margin-bottom: 35px;}
+
+.package-tabs-text {width: fit-content;background: #e4e9ed;margin: 0 auto;}
+.package-tabs-text li a {font-size: 22px;font-weight: lighter;color: #000000;padding: 15px 50px;}
+.package-tabs-text .nav-link.active, .package-tabs-text .show>.nav-link {background-color: #b21919;padding: 15px 50px;}
+.package-tabs-networth {display: flex;font-size: 14px;letter-spacing: normal;line-height: normal;}
+.package-tabs-text .nav-link.active::after {content: "";border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: 10px solid #b21919;border-bottom: 0px;position: absolute;margin-top: 15px;margin-left: -10px;}
+.tabs-content-margin {margin-top: 50px;}
+
+.radiobox-width1 {width: 243px !important;background: #fff3e8;border: 1px solid #ffcf71;border-radius: 8px;font-family: 'Lato';padding: 25px 20px;color: #000000;}
+.radiobox-width1 .service-fee-tag {font-size: 18px;font-weight: bold;letter-spacing: normal;line-height: 1.71;font-family: 'Lato'; padding-bottom: 10px;margin-left: -6px;margin-right: -12px;display: none;}
+.radiobox-width1 .service-months {font-size: 20px;font-weight: 900;letter-spacing: 0.72px;line-height:  1.57;font-family: 'Lato';border-top: 0px solid #cccccc;padding-top: 10px;padding-bottom: 10px;}
+.radiobox-width1 .service-amount {font-family: 'Poppins';font-weight: 900;padding-top: 15px;padding-bottom: 25px;font-size: 28px;font-weight: bold;border-top: 1px solid #cccccc;text-align: center;}
+.btn-subscribe-width {width: 100%;text-transform: uppercase;font-weight: 600;}
+.swiper-wrapper-flex {display: flex; justify-content: space-between;width: 90%;margin: 0 auto;}
+.border-none-package .service-months, .border-none-package .service-amount {border1: 0px;}
+
+.success-fee-packmargin {margin-top: 56px;}
+.basic-fee {display: block;font-size: 14px;text-transform: uppercase;line-height: normal;}
+.service-plus {font-size: 30px;font-family: 'Poppins';}
+.service-plus-pack {border-top: 1px solid #cccccc;padding-top: 15px;padding-bottom: 25px;}
+.service-plus-pack .service-amount {border-top: 0;padding-bottom: 0px;padding-top: 0px;}
+
+.service-package-benefits {width: 49%;margin: 0 auto;}
+.list-items-tick-new ul {padding: 0px 20px;}
+.list-items-tick-new ul li {padding-bottom: 5px;background: url(../revamp-images/list-item-pack-new.svg) no-repeat 0px 2px;list-style: none;padding-left: 34px;margin-bottom: 8px;font-size: 16px;text-shadow: 0px 0px;}
+.service-pack-benefit-title {font-size: 20px;margin: 30px auto 20px;padding-bottom: 0px;text-align: center;color: #e66a2f;text-shadow: 0px 0px #e66a2f;}
+
+.package-notificationtext {border: 2px solid #f5bb34;width: 570px;margin-top: 29px;padding: 10px 20px 10px;font-size: 15px;background: #fff;border-left: 0px;border-right: 0px;background-image: linear-gradient(to right, #ffefdd,#fff,#fff,#fff,#fff,#fff,#ffefdd);box-shadow: 0px 1px 6px #ccc;text-align: center;margin-left: 7px;}
+.package-notificationtext img:first-child {margin-right: 40px;}
+.package-notificationtext img:last-child {margin-left: 55px;}
+.aristocrat-pack {justify-content: center;}
+.aristocrat-pack .radiobox-width1 {margin-left: 50px;margin-right: 50px;}
+.package-tabs-text li.nav-item {border-right: 1px solid #cccccc;}
+.package-tabs-text li.nav-item:last-child {border-right: 0px;}
+
+/* Why Elite Matrimony Css Section Start */
+.box-min-width-text1 {font-size: 18px;min-width: 97%;}
+.box-min-width-text2 {font-size: 18px;min-width: 82%;}
+/* Why Elite Matrimony Css Section End */
+
+/* Our Brand Section Start */
+.our-brand-text {font-size: 16px;}
+/* Our Brand Section End */
+
+/* How it works? Section Start */
+.hiw-div {font-size: 16px;line-height: 23px;}
+.hiw-div-desc {margin-top: 25px;}
+/* How it works? Section End */
+
+
+.usp-border {border-right: 1px solid #c1721f;height: 95px;margin-top: 20px;opacity: 0.3;}
+.exc-list-margin {justify-content: space-between;}
+.exc-list-margin .icon-border {border-right: 0px solid #c1721f;}
+.package-notification-postion {position: absolute;margin-top: -110px;}
+
+
+@media only screen and (min-width: 768px) { 
+	.desk-none {display: none;}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) { 
+	.package-notification-postion {position: inherit;margin-top: 0px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+
+	.package-tabs-text .nav-link.active, .package-tabs-text .show > .nav-link {padding: 15px 25px;}
+	.package-tabs-text li a {padding: 15px 25px;}
+	
+}
+
+@media only screen and (max-width: 767px) { 
+	
+	.service-fee-tag, .xs-none {display: none;}
+	.package-tabs-text {width: 100%;margin: inherit;}
+	.package-tabs-text li a {font-size: 14px;padding: 15px 10px;}
+	.package-tabs-text li.nav-item {width: 33%;font-weight: 900;}
+	.package-tabs-text .nav-link.active, .package-tabs-text .show>.nav-link {background-color: #b21919;padding: 15px 10px;}
+	.package-tabs-networth {font-size: 12px;width: 80px;font-weight: 100;}
+	
+	.service-standard-text {font-size: 20px;padding-left: 0px;text-align: left;}
+	.service-standard-desc {font-size: 14px;margin-top: 0px;margin-bottom: 10px;text-align: left;}
+	
+	.radiobox-width1 {width: 30% !important;padding: 12px 8px;}
+	.radiobox-width1 .service-months {font-size: 14px;border-top: 0px;padding-top: 0px;padding-bottom: 0px;font-weight: bold;}
+	.radiobox-width1 .service-amount {font-size: 15px;}
+	.radiobox-width1 .btn-subscribe-width {font-size: 12px;text-transform: uppercase;padding: 5px 4px;font-weight: bold;letter-spacing: 0.42px;border-radius: 8px !important;}
+	.aristocrat-pack .radiobox-width1 {width: 48% !important;margin-left: 0px;margin-right: 0px;}
+	.service-plus-pack {border-top: 1px solid #cccccc;padding-top: 10px;padding-bottom: 10px;}
+	.service-plus {font-size: 18px;font-family: 'Poppins';}
+	
+	.basic-fee {font-size: 10px;}
+	.service-package-benefits {width: 100%;}
+	.list-items-tick-new ul {padding: 0px 0px;}
+	.list-items-tick-new ul li {padding-bottom: 5px;background: url(../revamp-images/list-item-pack-new.svg) no-repeat 0px 8px;list-style: none;padding-left: 34px;margin-bottom: 8px;font-size: 14px;color: #000000;text-shadow: 0px 0px #000000;line-height: normal;}
+	.service-pack-benefit-title {font-size: 14px;font-weight: 900;text-align: left;margin: 40px auto 20px;}
+	
+	.tabs-content-margin {margin-top: 40px;}
+	.swiper-package-new {margin-top: 18px;margin-bottom: 30px;}
+	.swiper-package-new .service-months {padding-bottom: 5px;}
+	.swiper-wrapper-flex {width: 100%;justify-content: space-between;}
+	/* .border-none-package .service-months {border-bottom: 1px solid #cccccc;margin-bottom: 8px;padding-bottom: 4px;} */
+	.border-none-package .service-months, .border-none-package .service-amount {padding-bottom: 6px;padding-top: 7px;}
+	
+	.package-padding {padding-top: 15px;}
+	.package-notificationtext {border: 2px solid #f5bb34;width: 100%;margin-top: 29px;padding: 10px 5px 7px;font-size: 12px;background: #fff;border-left: 0px;border-right: 0px;text-align: center;background-image: linear-gradient(to right, #ffefdd,#fff,#fff,#fff,#fff,#fff,#ffefdd);margin-left: 0px;}
+	.package-notificationtext img {margin-left: 0px;margin-right: 0px;width: 25px;}
+	.package-notificationtext img:first-child {margin-right: 0px;}
+	.package-notificationtext img:last-child {margin-left: 0px;}
+	
+	
+	/* Why Elite Matrimony Css Section Start */
+	.xs-small-text1 {font-size: 13px;}
+	/* Why Elite Matrimony Css Section End */
+	
+	/* How it works? Section Start */
+	.hiw-div {font-size: 16px;line-height: 23px;height: 255px;font-weight: 600;margin-bottom: 25px;}
+	/* How it works? Section End */
+	
+	
+	/* Footer Section Start */
+	.footer-elite-img {margin-top: -65px;}
+	/* Footer Section End */
+	
+	.usp-border {border-right: 1px solid #c1721f;height: 70px;margin-top: 20px;opacity: 0.3;}
+	.package-notification-postion {position: inherit;margin-top: 0px;}
+	.xs-list-service .icon-border {border-right: 0px solid #c1721f;}
+	
+}
+
+@media only screen and (max-width: 320px) { 
+	.package-notificationtext {font-size: 10px;}
+	.package-notificationtext img:first-child {width: 20px;}
+	.package-notificationtext img:last-child {width: 20px;}
+	.radiobox-width1 .service-months {font-size: 12px;}
+	.radiobox-width1 .service-amount {font-size: 12px;}
+	.radiobox-width1 .btn-subscribe-width {font-size: 10px;}
+	.service-standard-text {font-size: 18px;}
+}

@@ -1,0 +1,23 @@
+<svg id="Tick_icon_regular" data-name="Tick icon regular" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a03a;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_14103" data-name="Group 14103">
+    <g id="Group_14102" data-name="Group 14102">
+      <path id="Path_11408" data-name="Path 11408" class="cls-1" d="M8,0a8,8,0,1,0,8,8A8.009,8.009,0,0,0,8,0Z"/>
+      <g id="Group_14104" data-name="Group 14104" transform="translate(3.588 4.99)">
+        <g id="Group_14100" data-name="Group 14100">
+          <path id="Path_11407" data-name="Path 11407" class="cls-2" d="M131.814,165.579a.689.689,0,0,0-.974-.026l-4.4,4.173-2.1-2.155a.689.689,0,0,0-.987.962l2.573,2.642a.689.689,0,0,0,.968.019l4.893-4.641A.689.689,0,0,0,131.814,165.579Z" transform="translate(-123.158 -165.364)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
